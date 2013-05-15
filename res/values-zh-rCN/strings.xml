@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <string name="app_name">常规设置</string>
 
     <!-- Header Strings -->
     <string name="user_interface">界面设置</string>
