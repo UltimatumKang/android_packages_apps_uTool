@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">Outils XYE</string>
+    <string name="app_name">Outils UKG</string>
 
     <!-- Header Strings -->
     <string name="user_interface">Interface Générale</string>
@@ -114,7 +114,8 @@
     <string name="expanded_desktop_disabled">Désactivé</string>
     <string name="title_show_navbar_hide">Raccourcis de navigation</string>
     <string name="title_show_volume_state_toggle">Modes de son</string>
-    <string name="title_show_reboot_keyguard">Redémarrer</string>
+    <string name="title_show_reboot_keyguard">Redémarrer (Sécurisé)</string>
+    <string name="title_show_power_keyguard">Éteindre (Sécurisé)</string>
 
     <!-- Status Bar Headers -->
     <string name="status_bar_clock_header">Horloge</string>
@@ -759,7 +760,7 @@
     <string name="lockscreen_auto_rotate_title">Rotation auto. de l\'écran de verr.</string>
     <string name="lockscreen_auto_rotate_summary">L\'écran de verrouillage aura la capacité de rotation par l\'intermédiaire du capteur d\'orientation de l\'appareil. Ceci est indépendant de la rotation automatique du reste du système.</string>
     <string name="lockscreen_all_widgets_title">Permettre tous les widgets</string>
-    <string name="lockscreen_all_widgets_summary">*Attention* Certains widgets ne sont pas destinés à être utilisés sur l\'écran de verrouillage. Le développeur du widget, l\'équipe XYE, ne sont pas responsables de votre choix de widgets.</string>
+    <string name="lockscreen_all_widgets_summary">*Attention* Certains widgets ne sont pas destinés à être utilisés sur l\'écran de verrouillage. Le développeur du widget, notre équipe, ne sont pas responsables de votre choix de widgets.</string>
     <string name="lockscreen_unlimited_widgets_title">Autoriser un nombre illimité de widgets</string>
     <string name="lockscreen_unlimited_widgets_summary">*Attention* Ajouter trop de widgets peut causer des problèmes de lenteur sur l\'écran de verrouillage.</string>
 
@@ -769,14 +770,14 @@
     <string name="screen_security_summary">Afficher ou modifier les paramètres de sécurité</string>
     
     <string name="additional_options_title">Déverrouillage</string>
-    <string name="unlock_menu_unlock_title">Déverrouiller par Menu</string>
+    <string name="unlock_menu_unlock_title">Déverrouillage par Menu</string>
     <string name="unlock_menu_unlock_summary">Déverrouillage de l\'écran en appuyant sur le bouton Menu</string>
-    <string name="unlock_home_unlock_title">Déverrouillage par bouton Home</string>
-    <string name="unlock_home_unlock_summary">Déverrouillage de l\'écran en appuyant sur le bouton Home</string>
+    <string name="unlock_home_unlock_title">Déverrouillage par bouton Accueil</string>
+    <string name="unlock_home_unlock_summary">Déverrouillage de l\'écran en appuyant sur le bouton Accueil</string>
+    <string name="lockscreen_longpress_challenge_title">Déverrouillage par Appui Long</string>
+    <string name="lockscreen_longpress_challenge_summary">Déverrouillage de l\'écran en appuyant sur l\'icône de verrouillage, avec les widgets maximisés.</string>
     <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
     <string name="unlock_quick_unlock_control_summary">Évite d\'appuyer sur OK lors de la saisie du code PIN ou du mot de passe.\nAttention : effacer compte comme un essai raté\u00A0!</string>
-    <string name="lockscreen_longpress_challenge_title">Déverrouiller par Appui Long</string>
-    <string name="lockscreen_longpress_challenge_summary">Déverrouillage de l\'écran en appuyant sur l\'icône de verrouillage, avec les widgets maximisés.</string>
 
     <string name="delay_and_timeout_title">Délai de verrouillage</string>
     <string name="slide_lock_delay_title">Modifier les délais</string>
@@ -798,14 +799,14 @@
 
     <!--- Lock clock -->
     <string name="lock_clock_title">Widget horloge</string>
-    <string name="lock_clock_summary">Afficher ou modifier la façon dont le widget \'cLock\' est affiché sur l\'écran d\'accueil ou de verrouillage</string>
+    <string name="lock_clock_summary">Afficher ou modifier la façon dont le widget DashClock est affiché sur l\'écran d\'accueil ou de verrouillage</string>
 
     <!-- Hybrid -->
     <string name="hybrid_settings_title">Paramètres Hybride</string>
     
     <string name="hybridmode_title">Mode Hybride</string>
-    <string name="hybridmode_on">Activé</string>
-    <string name="hybridmode_off">Désactivé</string>
+    <string name="hybridmode_on">ON</string>
+    <string name="hybridmode_off">OFF</string>
 
     <string name="uimode_title">Mode d\'interface du système</string>
     <string name="uimode_phone">Téléphone (360dp)</string>
