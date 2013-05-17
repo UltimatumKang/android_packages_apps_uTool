@@ -1,6 +1,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">Herramientas de XYE</string>
+    <string name="app_name">Herramientas de UKG</string>
 
     <!-- Header Strings -->
     <string name="user_interface">Interfaz de Usuario</string>
@@ -763,7 +763,7 @@
 
     <!--- Lock clock -->
     <string name="lock_clock_title">Widget de Reloj</string>
-    <string name="lock_clock_summary">Ver o cambiar la forma en que los widgets de \'cLock\' se muestran en la pantalla de inicio y en la pantalla de bloqueo</string>
+    <string name="lock_clock_summary">Ver o cambiar la forma en que los widgets de DashClock se muestran en la pantalla de inicio y en la pantalla de bloqueo</string>
 
     <!-- Hybrid -->
     <string name="hybrid_settings_title">Configuraciones Híbridas</string>
