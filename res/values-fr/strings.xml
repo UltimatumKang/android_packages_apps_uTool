@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">Outils XYE</string>
+    <string name="app_name">Outils</string>
 
     <!-- Header Strings -->
     <string name="user_interface">Interface Générale</string>
@@ -759,7 +759,7 @@
     <string name="lockscreen_auto_rotate_title">Rotation auto. de l\'écran de verr.</string>
     <string name="lockscreen_auto_rotate_summary">L\'écran de verrouillage aura la capacité de rotation par l\'intermédiaire du capteur d\'orientation de l\'appareil. Ceci est indépendant de la rotation automatique du reste du système.</string>
     <string name="lockscreen_all_widgets_title">Permettre tous les widgets</string>
-    <string name="lockscreen_all_widgets_summary">*Attention* Certains widgets ne sont pas destinés à être utilisés sur l\'écran de verrouillage. Le développeur du widget, l\'équipe XYE, ne sont pas responsables de votre choix de widgets.</string>
+    <string name="lockscreen_all_widgets_summary">*Attention* Certains widgets ne sont pas destinés à être utilisés sur l\'écran de verrouillage. Le développeur du widget, notre équipe, ne sont pas responsables de votre choix de widgets.</string>
     <string name="lockscreen_unlimited_widgets_title">Autoriser un nombre illimité de widgets</string>
     <string name="lockscreen_unlimited_widgets_summary">*Attention* Ajouter trop de widgets peut causer des problèmes de lenteur sur l\'écran de verrouillage.</string>
 
@@ -769,7 +769,7 @@
     <string name="screen_security_summary">Afficher ou modifier les paramètres de sécurité</string>
     
     <string name="additional_options_title">Déverrouillage</string>
-    <string name="unlock_menu_unlock_title">Déverrouiller par Menu</string>
+    <string name="unlock_menu_unlock_title">Déverrouillage par Menu</string>
     <string name="unlock_menu_unlock_summary">Déverrouillage de l\'écran en appuyant sur le bouton Menu</string>
     <string name="unlock_home_unlock_title">Déverrouillage par bouton Home</string>
     <string name="unlock_home_unlock_summary">Déverrouillage de l\'écran en appuyant sur le bouton Home</string>
