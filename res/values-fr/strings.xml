@@ -489,13 +489,16 @@
     <string name="navbar_icon_menu">Icône personnalisé</string>
     <string name="navbar_delete_menu">Supprimer le bouton</string>
     
-    <!-- Hidden Statusbar Pulldown -->
-    <string name="auto_hide_statusbar">Masquer auto la barre d\'état</string>
-    <string name="auto_hide_statusbar_summary">La barre d\'état sera masquée automatiquement quand il n\'y aura pas de notifications</string>
-    <string name="hidden_statusbar_pulldown_title">Barre d\'état temporaire</string>
-    <string name="hidden_statusbar_pulldown_summary">Lorsque la barre d\'état est masquée, un swipe vers le bas l\'affichera quelques secondes</string>
-    <string name="hidden_statusbar_pulldown_timeout_title">Délai de la barre d\'état</string>
-    <string name="hidden_statusbar_pulldown_timeout_summary">Délai pendant lequel la barre d\'état reste affichée</string>
+    <!-- Hide Status Bar -->
+    <string name="statusbar_behaviour">Comportement de la barre d\'état</string>
+    <string name="statusbar_visible">Afficher la barre d\'état</string>
+    <string name="statusbar_hide_title">Masquer la barre d\'état</string>
+    <string name="statusbar_hide_summary">Vous pouvez choisir entre 3 comportements de la barre</string>
+    <string name="statusbar_notification">Notifications seulement</string>
+    <string name="statusbar_pulldown">Mode déroulant</string>
+    <string name="statusbar_pulldown_notification">Notifications &amp; déroulant</string>
+    <string name="hidden_statusbar_pulldown_timeout_title">Délai avant ré-enroulage</string>
+    <string name="hidden_statusbar_pulldown_timeout_summary">Délai pendant lequel la barre d\'état restera affichée</string>
 
     <!-- Nav Bar Widgets -->
     <string name="navbar_widgets">Widgets - Barre de Navigation</string>
