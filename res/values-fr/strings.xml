@@ -321,7 +321,7 @@
     <string name="toggle_style_scrollable">Traditionnel (Défilant)</string>
     <string name="toggle_swap_handle_side">Poignée à droite</string>
     <string name="add_toggles">Ajouter des Toggles</string>
-    <string name="screenshot_delay_title">Délai de la Capture d\'écran</string>
+    <string name="screenshot_delay_title">Délai de la capture d\'écran</string>
     <string name="screenshot_delay_summary">Choisir le délai du Toggle \'Capture d\'écran\' pour faire la capture.</string>
     <string name="toggle_action_title">Action %1$s &amp; icône</string>
     <string name="toggle_action_title_alt">Appui long action %1$s &amp; icône</string>
@@ -336,15 +336,15 @@
     <string name="dclick_action_summary">Changer le statut par double-clic</string>
     <string name="boot_action_title">État 1 au démarrage</string>
     <string name="boot_action_summary">Lancera l\'état 1 au démarrage</string>
-    <string name="match_icon_action_title">Lancé l\'action affichée</string>
+    <string name="match_icon_action_title">Lancer l\'action affichée</string>
     <string name="match_icon_action_summary">Useful for aligning task to displayed icon per your specific usage</string>
     <string name="action_toggle_title">Actions du Toggle</string>
     <string name="action_toggle_summary">Ordre des actions du Toggle, de gauche à droite.</string>
     <string name="no_dclick">Pas d\'action</string>
     <string name="back_one_dclick">Inverser l\'état</string>
     <string name="state_one_dclick">Set to state one</string>
-    <string name="skip_back_dclick">Skip back (no action)</string>
-    <string name="skip_up_dclick">Skip forward (no action)</string>
+    <string name="skip_back_dclick">Précédent (pas d\'action)</string>
+    <string name="skip_up_dclick">Suivant (pas d\'action)</string>
     <string name="collapse_bar_title">Fermer la barre d\'état</string>
     <string name="collapse_bar_summary">La barre d\'état se ferme après avoir fait l\'action</string>
     <string name="no_collapse">Ne jamais la fermer</string>
@@ -359,7 +359,7 @@
     <string name="default_jb_behavior">Comportement par défaut</string>
     <string name="home">Accueil</string>
     <string name="back">Retour</string>
-    <string name="recents">Appli. Récentes</string>
+    <string name="recents">Appli. récentes</string>
     <string name="search">Rechercher</string>
     <string name="screenshot">Capture d\'écran</string>
     <string name="menu">Menu</string>
@@ -374,7 +374,7 @@
     <string name="nav_widgets">Widgets de Navigation</string>
     <string name="blank">Rien</string>
     <string name="none">Aucun</string>
-    <string name="take_screenshot">Faire Capture d\'écran</string>
+    <string name="take_screenshot">Faire une capture d\'écran</string>
     <string name="ring_vib">Sonnerie/Vibreur</string>
     <string name="ring_silent">Sonnerie/Silencieux</string>
     <string name="ring_vib_silent">Sonnerie/Vibreur/Silencieux</string>
@@ -392,8 +392,8 @@
     <string name="glow_times_superquick">Très rapide</string>
     <string name="glow_times_quick">Rapide</string>
     <string name="glow_times_normal">Normal</string>
-    <string name="size_42_dp_default">42 dp (Défaut)</string>
-    <string name="size_48_dp_default">48 dp (Défaut)</string>
+    <string name="size_42_dp_default">42 dp (Par défaut)</string>
+    <string name="size_48_dp_default">48 dp (Par défaut)</string>
     <string name="size_0_dp">0 dp (Off)</string>
 
     <!-- Powerwidget -->
