@@ -33,6 +33,7 @@
     <string name="weather">天气</string>
     <string name="tools">工具</string>
     <string name="bar_cat">按键</string>
+    <string name="icon_cat">状态图标</string>
     <string name="notif_cat">通知</string>
 
     <!-- Activity titles defined in AndroidManifest.xml -->
@@ -62,12 +63,20 @@
     <string name="clipboard_notification">复制到剪贴板</string>
 
     <!-- Menu Strings -->
-    <string name="menu_nav_bar_reset">重置导航栏</string>
+   
     <string name="menu_main_activity_change_locale">区域设置</string>
+    <string name="menu_nav_bar_reset">重置导航栏</string> 
+    
+    <string name="menu_ribbon_reset">重置</string> 
+    <string name="menu_ribbon_apps">重置应用程序</string>
+    
     <string name="menu_ribbon_rearrange">重置彩带捷径</string>
-    <string name="menu_user_interface_reset">重置背景壁纸</string>
-    <string name="menu_lockscreens_reset">重置锁屏壁纸</string>
-    <string name="menu_ribbon_reset">重置</string>
+    <string name="menu_ribbon_hide">隐藏应用程序</string>
+    <string name="menu_ribbon_toggles">设置切换</string>
+    <string name="menu_ribbon_na">暂无</string>
+    <string name="menu_ribbon_toggles_error">只左、右滑动切换</string>
+   <string name="menu_user_interface_reset">重置背景壁纸</string>
+   <string name="menu_lockscreens_reset">重置锁屏壁纸</string>
 
     <!-- General Strings -->
     <string name="advanced_settings">高级设置</string>
@@ -117,6 +126,7 @@
     <string name="expanded_desktop_no_status_bar">状态栏隐藏</string>
     <string name="title_show_navbar_hide">显示导航开关</string>
     <string name="title_show_reboot_keyguard">锁屏界面开启重启菜单</string>
+    <string name="title_show_power_keyguard">锁屏关机</string>
 
     <!-- Status Bar Headers -->
     <string name="status_bar_clock_header">时钟</string>
@@ -333,7 +343,7 @@
     <string name="toggle_longpress_title">%1$s 长按动作</string>
     <string name="custom_toggle_desc">"基本模式，点击开关将切换动作，长按执行所显示开关的长按动作，适用于用户希望自己切换到要执行的应用程序。高级模式，点击开关将切换并执行动作，长按执行所显示开关的长按动作，适用于用户希望用一次点击切换并执行动作。"</string>
     <string name="custom_help_title">使用指导</string>
-    <string name="custom_help_summary">更多消息</string>
+    <string name="custom_help_summary">点击查看更多信息</string>
     <string name="custom_toggle_okay">取消</string>
     <string name="custom_toggle_cat">自定义开关</string>
     <string name="custom_button_cat">自定义开关动作</string>
@@ -379,7 +389,7 @@
     <string name="toggle_settings">设置</string>
     <string name="toggle_signal">信号</string>
     <string name="toggle_clock">时钟</string>
-    <string name="toggle_ime">输入法</string>
+    <string name="toggle_ime">输入法选择器</string>
     <string name="toggle_battery">电量</string>
     <string name="toggle_brightness">亮度</string>
     <string name="toggle_sleep">睡眠</string>
@@ -437,7 +447,6 @@
     <string name="cm_sound_mode_vibrate">振动</string>
     <string name="cm_sound_mode_sound">声音</string>
     <string name="cm_sound_mode_soundVibrate">声音 &amp; 振动</string>
-    <string name="pref_flash_mode_title">手电筒模式</string>
     <string name="expanded_haptic_feedback_title">触觉反馈</string>
     <string name="power_widget_additional_options_cat">附加选项</string>
     <string name="brightness_location_title">亮度滑块位置</string>
@@ -560,14 +569,16 @@
     <string name="navbar_icon_menu">自定义图标</string>
     <string name="navbar_delete_menu">删除虚拟键</string>
 
-    <!-- Auto-Hide Status Bar -->
-    <string name="auto_hide_statusbar">自动隐藏状态栏</string>
-    <string name="auto_hide_statusbar_summary">当没有通知时自动隐藏状态栏</string>
+    <string name="statusbar_behaviour">状态栏的行为</string>
+    <string name="statusbar_visible">显示状态栏</string>
+    <!-- Hide Status Bar -->
+    <string name="statusbar_hide_title">隐藏状态栏</string>
 
     <!-- Hidden Statusbar Pulldown -->
-    <string name="hidden_statusbar_pulldown_title">隐藏状态栏下拉</string>
-    <string name="hidden_statusbar_pulldown_summary">允许状态栏在使用全屏应用程序时拉下来</string>
-    <string name="hidden_statusbar_pulldown_timeout_title">隐藏状态栏下拉超时</string>
+    <string name="statusbar_hide_summary">选择3种不同状态的行为</string>
+    <string name="statusbar_notification">通知</string>
+    <string name="statusbar_pulldown">下拉状态栏</string>
+    <string name="statusbar_pulldown_notification">下拉通知</string>    <string name="hidden_statusbar_pulldown_timeout_title">Hidden Statusbar Pulldown Timeout</string>
     <string name="hidden_statusbar_pulldown_timeout_summary">隐藏状态栏窗口超时</string>
 
     <!-- Nav Bar Widgets -->
@@ -595,6 +606,7 @@
     <string name="title_navring_amount">导航圈目标数量</string>
     <string name="summary_navring_amount">选择导航圈的目标数目</string>
     <string name="interface_navring_settings_title">导航圈</string>
+    <string name="interface_navring_settings_summary">@null</string>
     <string name="navring_target_info">手指拖动到目标分配操作</string>
     <string name="navring_clear">清除操作</string>
     <string name="navring_short">短按操作</string>
@@ -614,6 +626,8 @@
     <string name="transparency_dialog_transparency_keyguard">锁屏界面不透明度</string>
     <string name="navigation_bar_color_title">导航栏颜色</string>
     <string name="status_bar_color_title">状态栏颜色</string>
+    <string name="status_icon_color_title">状态图标颜色</string>
+    <string name="status_enable_color_title">状态图标颜色风格</string>
 
     <!-- General UI | Other Modifications unknown -->
     <string name="custom_carrier_label_title">自定义运营商</string>
@@ -688,48 +702,22 @@
     <string name="ram_bar_button_help">帮助</string>
     <string name="ram_bar_button_reset">充值颜色</string>
 
-    <!-- General UI | LCD Density -->
-    <string name="lcd_density_title">LCD密度</string>
-    <string name="lcd_density_summary">更改手机LCD密度</string>
-    <string name="current_lcd_density">"当前密度:"</string>
-    <string name="lcd_density_wizard">LCD密度向导</string>
-    <string name="follow_through_title">跟着来！</string>
-    <string name="follow_through_summary">按照向导一步一步来</string>
-    <string name="stock_density_title">1. 改变密度值</string>
-    <string name="stock_density_summary">平板电脑160 普通手机240 Galaxy Nexus 320</string>
-    <string name="stock_density_changed_summary">"密度设置为:"</string>
-    <string name="reboot_title">2. 重新启动</string>
-    <string name="reboot_summary">重新启动后按照步骤继续进行</string>
-    <string name="clear_market_data_title">3. 清除市场数据</string>
-    <string name="clear_market_data_summary">此步骤清除数据，包括市场、谷歌播放服务和谷歌服务框架。</string>
-    <string name="clear_market_data_cleared">市场数据已清除</string>
-    <string name="clear_market_data_donot_cleared">"市场数据无法清除，请自己手动清除"</string>
-    <string name="reboot_cleardata_title">4. 重新启动</string>
-    <string name="reboot_cleardata_summary">重新启动后并完成其余的步骤！</string>
-    <string name="open_market_title">5. 打开市场点击接受</string>
-    <string name="open_market_summary">完成后请返回继续下一步</string>
-    <string name="open_market_summary_could_not_open">"无法打开市场，请确认你已安装市场"</string>
-    <string name="custom_density_title">6.改变为任意密度</string>
-    <string name="custom_density_summary">如若市场出现问题请重新操作</string>
-    <string name="custom_density_summary_invalid">"无效密度！"</string>
-    <string name="custom_density">自定义</string>
-    <string name="set_custom_density_title">设置自定义密度</string>
-    <string name="set_custom_density_set">设置</string>
-    <string name="custom_density_dialog_title">"警告！"</string>
-    <string name="custom_density_dialog_summary">"改变密度可能导致应用强制退出请重复以上步骤"</string>
-    <string name="custom_density_dialog_button_got">明白！</string>
-    <string name="custom_density_dialog_button_reboot">重启</string>
-
    <!-- Ribbon -->
-    <string name="ribbon_dialog_arrange_title">布局</string>
-    <string name="ribbon_instructions">点击图示新增或删除动作</string>
+    <string name="ribbon_dialog_arrange_title">操作区布局</string>
+    <string name="ribbon_chooser_instructions">选择彩带捷径设置。</string>
+    <string name="ribbon_instructions">按住图标来选择行动或者删除，按菜单键将会显示更多的设置。</string>
     <string name="ribbon_targets_cat">彩带捷径条设定</string>
     <string name="enable_ribbon_text_title">显示捷径名称</string>
     <string name="enable_ribbon_vibrate_title">触发区振动回馈</string>
     <string name="enable_ribbon_text_summary">图示下方显示捷径名称</string>
     <string name="ribbon_icon_vibrate_title">点击触动回馈</string>
     <string name="ribbon_icon_space_title">捷径图标间距</string>
+    <string name="app_window_space_title">垂直图标间距</string>
     <string name="ribbon_icon_size_title">捷径图示大小</string>
+    <string name="ribbon_dismiss_title">彩带捷径取消当前行动</string>
+    <string name="ribbon_animation_duration_title">动画的持续时间</string>
+    <string name="ribbon_long_swipe_title">双击活动区</string>
+    <string name="ribbon_long_press_title">长按活动区</string>
     <string name="ribbon_icon_size_summary">设定捷径图示的大小</string>
     <string name="ribbon_lockscreen">锁屏捷径</string>
     <string name="ribbon_notifications">通知栏捷径</string>
@@ -737,6 +725,7 @@
     <string name="ribbon_swipe_left">左侧滑动出现捷径</string>
     <string name="ribbon_swipe_right">右侧滑动出现捷径</string>
     <string name="ribbon_swipe_bottom">底部滑动出现捷径</string>
+    <string name="app_window">应用程序窗口</string>
     <string name="clone_title">选定将要复制捷径</string>
     <string name="icon_size_normal">正常</string>
     <string name="icon_size_20">中等</string>
@@ -755,9 +744,21 @@
     <string name="ribbon_insert">新增按键</string>
     <string name="ribbon_handle_location_title">手势触发区位置</string>
     <string name="ribbon_icon_location_title">图示捷径排序</string>
+    <string name="window_text_color_title">窗口文本颜色</string>
+    <string name="window_color_title">窗口的颜色</string>
+    <string name="window_opacity_title">窗口的不透明度</string>
+    <string name="window_columns_title">窗口栏</string>
+    <string name="window_app_hide_title">选择应用程序隐藏</string>
     <string name="center">置中</string>
     <string name="top">上半部</string>
     <string name="bottom">下半部</string>
+    <string name="never">从不</string>
+    <string name="always">总是</string>
+    <string name="not_bar">没有导航栏的行动</string>
+    <string name="multi_select_title">选择添加目标</string>
+    <string name="ribbon_animation_type_title">动画风格</string>
+    <string name="ribbon_toggles_button_title">切换按钮在底部</string>
+    <string name="ribbon_hide_ime_title">键盘滑动区隐藏。</string>
 
     <!-- LED -->
     <string name="led_on">LED开启</string>
@@ -774,6 +775,7 @@
     <string name="led_keep_app">保留</string>
     <string name="led_custom_title">自定义LED应用</string>
     <string name="led_custom_message">你想改变的应用程序：</string>
+    <string name="led_edit_button">-</string>
     <string name="led_test_notification">测试LED</string>
     <string name="led_test_notification_message_now">现在测试LED:</string>
     <string name="led_test_notification_message_note">请关闭您的屏幕上看LED，直到你查看LED颜色结束前不要点击弹出窗口的”确定“</string>
@@ -812,6 +814,33 @@
 
     <!-- NEW METHOD PEWDIEPIE CODE -->
     
+    <!-- Lock screen shortcuts -->
+    <string name="picker_activities">活动</string>
+    <string name="icon_picker_choose_icon_title">选择图标</string>
+    <string name="icon_picker_alarm">闹铃</string>
+    <string name="icon_picker_browser">浏览器</string>
+    <string name="icon_picker_calendar">日历</string>
+    <string name="icon_picker_camera">相机</string>
+    <string name="icon_picker_chrome">chrome浏览器</string>
+    <string name="icon_picker_contacts">联系人</string>
+    <string name="icon_picker_email">Email</string>
+    <string name="icon_picker_email2">Email Holo</string>
+    <string name="icon_picker_facebook">Facebook</string>
+    <string name="icon_picker_gallery">图库</string>
+    <string name="icon_picker_google_small">Google (小)</string>
+    <string name="icon_picker_googleplus">Google Plus</string>
+    <string name="icon_picker_googletalk">Google Talk</string>
+    <string name="icon_picker_maps">地图</string>
+    <string name="icon_picker_movie">电影</string>
+    <string name="icon_picker_music">音乐</string>
+    <string name="icon_picker_nav_normal">导航</string>
+    <string name="icon_picker_phone">电话</string>
+    <string name="icon_picker_podcast">播客</string>
+    <string name="icon_picker_rss">RSS</string>
+    <string name="icon_picker_search">搜索</string>
+    <string name="icon_picker_sms">信息</string>
+    <string name="icon_picker_twitter">Twitter</string>
+
     <!-- String for IconPicker -->
     <string name="icon_picker_title">选择图标来源</string>
     <string name="icon_picker_system_icons_title">系统图标</string>
