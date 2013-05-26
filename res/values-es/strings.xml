@@ -1,6 +1,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">Herramientas de UKG</string>
+    <string name="app_name">Herramientas</string>
 
     <!-- Header Strings -->
     <string name="user_interface">Interfaz de Usuario</string>
