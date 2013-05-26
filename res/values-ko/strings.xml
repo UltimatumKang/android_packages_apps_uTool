@@ -1,6 +1,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">XY 설정</string>
+    <string name="app_name">설정</string>
 
     <!-- Header Strings -->
     <string name="user_interface">인터페이스</string>
@@ -60,19 +60,6 @@
     <!-- Share to clipboard -->
     <string name="clipboard_notification">클립보드에 복사됨.</string>
 
-    <!-- Header Summaries -->
-    <string name="header_summary_general_ui">@null</string>
-    <string name="header_summary_power_menu">@null</string>
-    <string name="header_summary_navigation_bar">@null</string>
-    <string name="header_summary_clock">@null</string>
-    <string name="header_summary_signal">@null</string>
-    <string name="header_summary_toggles">@null</string>
-    <string name="header_summary_led">@null</string>
-    <string name="header_summary_pie">@null</string>
-    <string name="header_summary_statusbar">@null</string>
-    <string name="header_summary_hybridsettings">@null</string>
-    <string name="header_summary_spen">@null</string>
-
     <!-- Menu Strings -->
     <string name="menu_nav_bar_reset">소프트 키 초기화</string>
     <string name="menu_main_activity_change_locale">언어</string>
@@ -108,15 +95,11 @@
     <string name="use_custom_app_summary">최근 앱 보기 대신에 사용자 지정 앱을 사용합니다.</string>
     <string name="group_applications">앱</string>
     <string name="select_application">앱을 선택합니다.</string>
-    <string name="dpi">DPI</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">색상 선택기</string>
     <string name="press_color_to_apply">색상을 눌러서 적용</string>   
-    <string name="arrow_right">→</string> 
-    <string name="arrow_down">↓</string>
     <string name="hex">헥스:</string>
-    <string name="hex_hint">#FF000000</string>
     <string name="set">설정</string>
     <string name="ics_color">ics</string>
 
@@ -124,7 +107,6 @@
     <string name="title_show_screenshot">스크린샷</string>
     <string name="title_show_airplane_toggle">비행기 모드</string>
     <string name="power_menu_expanded_desktop">확장 데스크톱</string>
-    <string name="summary_expanded_desktop">%1$s</string>
     <string name="expanded_desktop_summary">확장 데스크톱 모드를 보거나 변경</string>
     <string name="expanded_desktop_disabled">꺼짐</string>
     <string name="title_show_volume_state_toggle">볼륨 상태</string>
@@ -177,7 +159,6 @@
 
     <!-- Pie controls -->
     <string name="pie_controls_title">조작</string>
-    <string name="pie_controls_summary">@null</string>
     <string name="enable_pie_title">파이 활성화</string>
     <string name="pie_targets_title">타켓</string>
 
@@ -717,38 +698,6 @@
     <string name="ram_bar_button_help">도움말</string>
     <string name="ram_bar_button_reset">색상 초기화</string>
 
-    <!-- General UI | LCD Density -->
-    <string name="lcd_density_title">LCD 밀도</string>
-    <string name="lcd_density_summary">알 수 없음</string>
-    <string name="current_lcd_density">현재 LCD 밀도:</string>
-    <string name="lcd_density_wizard">LCD 밀도 마법사</string>
-    <string name="follow_through_title">다음 과정을 잘 시행하세요.</string>
-    <string name="follow_through_summary" />
-    <string name="stock_density_title">1. 화면 밀도를 원래상태로 복구합니다.</string>
-    <string name="stock_density_summary">태블릿과 일부 구형 폰은 160, 대부분은 240이며, 갤럭시 넥서스의 경우 320이 기본설정입니다.</string>
-    <string name="stock_density_changed_summary">"밀도 설정됨 : "</string>
-    <string name="reboot_title">2. Reboot!</string>
-    <string name="reboot_summary">Come back here after the reboot and complete the rest of the steps!</string>
-    <string name="clear_market_data_title">3. Clear all relevant market data.</string>
-    <string name="clear_market_data_summary">This step clears data from Google play services and Google services framework.</string>
-    <string name="clear_market_data_cleared">Data successfully cleared</string>
-    <string name="clear_market_data_donot_cleared">"Data couldn't be cleared, please clear it yourself!"</string>
-    <string name="reboot_cleardata_title">4. Reboot!</string>
-    <string name="reboot_cleardata_summary">Come back here after the reboot and complete the rest of the steps!</string>
-    <string name="open_market_title">5. Open Market and hit accept</string>
-    <string name="open_market_summary">Press back when done to return here.</string>
-    <string name="open_market_summary_could_not_open">"Couldn't open the market! If you're sure it's installed, open it yourself from the launcher."</string>
-    <string name="custom_density_title">6. Change density to whatever youd like!</string>
-    <string name="custom_density_summary">If you ever have compatibility issues with the market, be sure to return here and repeat the process, or flash a modded Play Store.</string>
-    <string name="custom_density_summary_invalid">"INVALID DENSITY!"</string>
-    <string name="custom_density">custom</string>
-    <string name="set_custom_density_title">Set custom density</string>
-    <string name="set_custom_density_set">Set</string>
-    <string name="custom_density_dialog_title">"WARNING!"</string>
-    <string name="custom_density_dialog_summary">"Changing your LCD density can cause unexpected app behavior. If you encounter market app incompatibility, please return here and restart the process from step 1."</string>
-    <string name="custom_density_dialog_button_got">Got it!</string>
-    <string name="custom_density_dialog_button_reboot">Reboot like a bau5</string>
-
    <!-- Ribbon -->
     <string name="ribbon_instructions">아이콘을 눌러 활동을 선택하거나 제거합니다.</string>
     <string name="ribbon_targets_cat">리본 설정</string>
@@ -967,7 +916,7 @@
 
     <!--- Lock clock -->
     <string name="lock_clock_title">시계 위젯</string>
-    <string name="lock_clock_summary"> \'cLock\' 위젯이 홈 화면과 잠금화면에 어떻게 표시될 지 설정합니다.</string>
+    <string name="lock_clock_summary">DashClock 위젯이 홈 화면과 잠금화면에 어떻게 표시될 지 설정합니다.</string>
 
 
     <!-- LED brightness entries -->
@@ -1048,6 +997,5 @@
 
     <string name="alert_reboot">다시 부팅 필요</string>
     <string name="alert_reboot_message">이 변경은 다시 시작을 필요로 합니다.  \n다시 시작하시겠습니까?</string>
-	
 
 </resources>

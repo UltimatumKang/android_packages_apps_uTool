@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">Outils XYE</string>
+    <string name="app_name">Outils</string>
 
     <!-- Header Strings -->
     <string name="user_interface">Interface Générale</string>
@@ -16,7 +16,7 @@
     <string name="battery">Batterie</string>
     <string name="clock">Horloge</string>
     <string name="signal">Signal</string>
-    <string name="quick_toggles">Quick Settings</string>
+    <string name="quick_toggles">Réglages Rapides</string>
     <string name="statusbar">Barre d\'état</string>
     <string name="status_extras">Divers</string>
     <string name="others">Autres</string>
@@ -34,12 +34,13 @@
     <string name="weather">Météo</string>
     <string name="tools">Outils</string>
     <string name="bar_cat">Barres</string>
+    <string name="icon_cat">Icônes d\'état</string>
     <string name="notif_cat">Notifications</string>
 
     <!-- Activity titles defined in AndroidManifest.xml -->
     <string name="title_general_ui">Général</string>
     <string name="title_statusbar_clock">Horloge</string>
-    <string name="title_quick_toggles">Quick Settings</string>
+    <string name="title_quick_toggles">Réglages Rapides</string>
     <string name="title_statusbar_signal">Signal</string>
     <string name="title_statusbar_battery">Batterie</string>
     <string name="title_statusbar">Barre d\'état</string>
@@ -61,13 +62,16 @@
     <string name="clipboard_notification">Copié dans le Presse-Papiers.</string>
 
     <!-- Menu Strings -->
-    <string name="menu_ribbon_toggles">Configurer les toggles</string>
-    <string name="menu_ribbon_toggles_error">Les toggles sont seulement disponibles pour le ruban par swipe de gauche et droite.</string>
+    <string name="menu_ribbon_toggles">Configurer les interrupteurs</string>
+    <string name="menu_ribbon_reset">Réinitialiser le ruban</string>
+    <string name="menu_ribbon_apps">Réinitialiser les appli.</string>
+    <string name="menu_ribbon_rearrange">Réarranger le ruban</string>
+    <string name="menu_ribbon_hide">Masquer les appli.</string>
+    <string name="menu_ribbon_na">Pas disponible</string>
+    <string name="menu_ribbon_toggles_error">Les interrupteurs sont seulement disponibles pour les rubans par swipe de gauche et droite.</string>
     <string name="menu_nav_bar_reset">Réini. la barre de nav.</string>
     <string name="menu_user_interface_reset">Réini. de l\'arrière-plan des notifications</string>
     <string name="menu_lockscreens_reset">Réini. l\'arrière-plan de l\'écran de verrouillage</string>
-    <string name="menu_ribbon_rearrange">Réarranger le ruban</string>
-    <string name="menu_ribbon_reset">Réinitialiser le ruban</string>
 
     <!-- General Strings -->
     <string name="advanced_settings">Paramètres avancés</string>
@@ -114,7 +118,8 @@
     <string name="expanded_desktop_disabled">Désactivé</string>
     <string name="title_show_navbar_hide">Raccourcis de navigation</string>
     <string name="title_show_volume_state_toggle">Modes de son</string>
-    <string name="title_show_reboot_keyguard">Redémarrer</string>
+    <string name="title_show_reboot_keyguard">Redémarrer (Sécurisé)</string>
+    <string name="title_show_power_keyguard">Éteindre (Sécurisé)</string>
 
     <!-- Status Bar Headers -->
     <string name="status_bar_clock_header">Horloge</string>
@@ -289,66 +294,56 @@
     <string name="regular_weekday">Jour de la semaine normal</string>
 
     <!-- Statusbar | Toggles -->
-    <string name="toggle_style_title">Style des Toggles</string>
-    <string name="toggle_style_summary">Si vous souhaitez afficher des icônes ou du texte sur votre toggle.</string>
-    <string name="toggles_layout_title">Mode de Toggle</string>
-    <string name="toggles_per_row_title">Toggles par ligne</string>
-    <string name="toggles_per_row_summary">Choisir le nombre de Toggles affichés par ligne</string>
-    <string name="toggles_style_title">Mode de Toggles</string>
-    <string name="toggles_style_summary">Notification (traditionnel) ou QS (tuiles)</string>
+    <string name="toggles_layout_title">Mode d\'interrupteur</string>
+    <string name="toggles_per_row_title">Tuiles par ligne</string>
+    <string name="toggles_per_row_summary">Choisir le nombre de tuiles affichées par ligne</string>
+    <string name="toggles_style_title">Mode d\'interrupteur</string>
+    <string name="toggles_style_summary">Notification (petit) ou Tuiles (grand)</string>
     <string name="toggles_display_close">Fermer</string>
-    <string name="toggles_order_title">Ordre des Toggles</string>
-    <string name="toggles_order_summary">Choisissez l\'ordre dans lequel vos Toggles seront affichés.</string>
-    <string name="title_settings_behavior">Utiliser les paramètres d\'affichage par défaut</string>
-    <string name="summary_settings_behavior_default">Appui court pour Paramètres, Appui long pour Toggles</string>
-    <string name="summary_settings_behavior_reverse">Appui court pour Toggles, Appui long pour Paramètres</string>
-    <string name="title_toggles_autohide">Masquer les Toggles automatiquement</string>
-    <string name="summary_toggles_autohide">Masquer les Toggles après la fermeture du Drawer.</string>
-    <string name="reset_toggles_title">Réinitialiser les Toggles</string>
-    <string name="reset_toggles_summary">Réinitialiser tous les Toggles et leur ordre.</string>
-    <string name="toggle_text_color_title">Couleur du texte des Toggles</string>
+    <string name="toggles_order_title">Ordre des interrupteurs</string>
+    <string name="toggles_order_summary">Choisissez l\'ordre dans lequel vos interrupteurs seront affichés</string>
+    <string name="reset_toggles_title">Réinitialiser les interrupteurs</string>
+    <string name="reset_toggles_summary">Réinitialiser tous les interrupteurs et leur ordre</string>
     <string name="toggle_favcontact_title">Contact favoris</string>
-    <string name="toggle_favcontact_summary">Choisir votre contact favoris</string>
-    <string name="toggle_enable_fasttoggle_title">Activer le Fast Toggle</string>
+    <string name="toggle_favcontact_summary">Choisir votre contact favoris à afficher</string>
+    <string name="toggle_enable_fasttoggle_title">Activer les tuiles rapides</string>
     <string name="toggle_enable_fasttoggle_summary">Substitue le comportement par défaut</string>
-    <string name="toggle_choose_fasttoggle_side_title">Choisir le côté du Fast Toggle</string>
-    <string name="toggle_choose_fasttoggle_side_summary">Choisir de quel côté de la barre d\'état serons affichés les Toggles</string>
+    <string name="toggle_choose_fasttoggle_side_title">Choisir le côté des tuiles rapides</string>
+    <string name="toggle_choose_fasttoggle_side_summary">Choisir de quel côté de la barre d\'état serons affichées les tuiles</string>
     <string name="toggle_dialog_arrange_title">Configuration</string>
-    <string name="toggle_dialog_add_toggles">Sélectionner les Toggles à afficher</string>
-    <string name="toggle_style_tile">Quick Settings (Tuiles)</string>
-    <string name="toggle_style_traditional">Traditionnel</string>
-    <string name="toggle_style_scrollable">Traditionnel (Défilant)</string>
+    <string name="toggle_dialog_add_toggles">Sélectionner les interrupteurs à afficher</string>
+    <string name="toggle_style_tile">Tuiles</string>
+    <string name="toggle_style_traditional">Notification</string>
+    <string name="toggle_style_scrollable">Notification (Défilant)</string>
     <string name="toggle_swap_handle_side">Poignée à droite</string>
-    <string name="add_toggles">Ajouter des Toggles</string>
-    <string name="screenshot_delay_title">Délai de la Capture d\'écran</string>
-    <string name="screenshot_delay_summary">Choisir le délai du Toggle \'Capture d\'écran\' pour faire la capture.</string>
+    <string name="add_toggles">Ajouter des interrupteurs</string>
+    <string name="screenshot_delay_title">Délai de la capture d\'écran</string>
+    <string name="screenshot_delay_summary">Choisir le délai de l\'interrupteur \'Capture d\'écran\' pour faire la capture</string>
     <string name="toggle_action_title">Action %1$s &amp; icône</string>
     <string name="toggle_action_title_alt">Appui long action %1$s &amp; icône</string>
     <string name="toggle_longpress_title">Appui long de l\'action %1$s</string>
-    <string name="custom_toggle_desc">Chaque appui fera passer le Toggle à l\'action suivante. Si votre Toggle a une action vide, et pas d\'icône défini, l\'action de l\'appui long sera affichée.</string>
+    <string name="custom_toggle_desc">Chaque appui fera passer l'\interrupteur à l\'action suivante. Si votre interrupteur a une action vide, et pas d\'icône défini, l\'action de l\'appui long sera affichée.</string>
     <string name="custom_help_title">Comment ça marche</string>
     <string name="custom_help_summary">Appuyer pour plus d\'informations</string>
     <string name="custom_toggle_okay">Ok</string>
-    <string name="custom_toggle_cat">Toggle personnalisé</string>
-    <string name="custom_button_cat">Actions du Toggle personnalisé</string>
-    <string name="dclick_action_title">Actions d\'un double-clic</string>
-    <string name="dclick_action_summary">Changer le statut par double-clic</string>
+    <string name="custom_toggle_cat">Interrupteur personnalisé</string>
+    <string name="custom_button_cat">Actions de l\'interrupteur personnalisé</string>
+    <string name="dclick_action_title">Actions d\'un double appui</string>
+    <string name="dclick_action_summary">Changer le statut par double appui</string>
     <string name="boot_action_title">État 1 au démarrage</string>
     <string name="boot_action_summary">Lancera l\'état 1 au démarrage</string>
-    <string name="match_icon_action_title">Lancé l\'action affichée</string>
-    <string name="match_icon_action_summary">Useful for aligning task to displayed icon per your specific usage</string>
-    <string name="action_toggle_title">Actions du Toggle</string>
-    <string name="action_toggle_summary">Ordre des actions du Toggle, de gauche à droite.</string>
+    <string name="match_icon_action_title">Lancer l\'action affichée</string>
+    <string name="action_toggle_title">Actions de l\'interrupteur:</string>
+    <string name="action_toggle_summary">Ordre des actions, de gauche à droite.</string>
     <string name="no_dclick">Pas d\'action</string>
     <string name="back_one_dclick">Inverser l\'état</string>
-    <string name="state_one_dclick">Set to state one</string>
-    <string name="skip_back_dclick">Skip back (no action)</string>
-    <string name="skip_up_dclick">Skip forward (no action)</string>
+    <string name="skip_back_dclick">Précédent (pas d\'action)</string>
+    <string name="skip_up_dclick">Suivant (pas d\'action)</string>
     <string name="collapse_bar_title">Fermer la barre d\'état</string>
     <string name="collapse_bar_summary">La barre d\'état se ferme après avoir fait l\'action</string>
     <string name="no_collapse">Ne jamais la fermer</string>
-    <string name="click_collapse">A l\'appui court</string>
-    <string name="long_collapse">A l\'appui long</string>
+    <string name="click_collapse">À l\'appui court</string>
+    <string name="long_collapse">À l\'appui long</string>
     <string name="both_collapse">Les deux, long et court</string>
 
     <!-- Navigation Bar (Targets) -->
@@ -358,7 +353,7 @@
     <string name="default_jb_behavior">Comportement par défaut</string>
     <string name="home">Accueil</string>
     <string name="back">Retour</string>
-    <string name="recents">Appli. Récentes</string>
+    <string name="recents">Appli. récentes</string>
     <string name="search">Rechercher</string>
     <string name="screenshot">Capture d\'écran</string>
     <string name="menu">Menu</string>
@@ -373,12 +368,12 @@
     <string name="nav_widgets">Widgets de Navigation</string>
     <string name="blank">Rien</string>
     <string name="none">Aucun</string>
-    <string name="take_screenshot">Faire Capture d\'écran</string>
+    <string name="take_screenshot">Faire une capture d\'écran</string>
     <string name="ring_vib">Sonnerie/Vibreur</string>
     <string name="ring_silent">Sonnerie/Silencieux</string>
     <string name="ring_vib_silent">Sonnerie/Vibreur/Silencieux</string>
     <string name="screen_off">Éteindre l\'écran</string>
-    <string name="google_now">Google Now</string>
+    <string name="google_now">Google Now</string>
     <string name="one_target">1 élément</string>
     <string name="two_targets">2 éléments</string>
     <string name="three_targets">3 éléments</string>
@@ -391,8 +386,8 @@
     <string name="glow_times_superquick">Très rapide</string>
     <string name="glow_times_quick">Rapide</string>
     <string name="glow_times_normal">Normal</string>
-    <string name="size_42_dp_default">42 dp (Défaut)</string>
-    <string name="size_48_dp_default">48 dp (Défaut)</string>
+    <string name="size_42_dp_default">42 dp (Par défaut)</string>
+    <string name="size_48_dp_default">48 dp (Par défaut)</string>
     <string name="size_0_dp">0 dp (Off)</string>
 
     <!-- Powerwidget -->
@@ -488,13 +483,16 @@
     <string name="navbar_icon_menu">Icône personnalisé</string>
     <string name="navbar_delete_menu">Supprimer le bouton</string>
     
-    <!-- Hidden Statusbar Pulldown -->
-    <string name="auto_hide_statusbar">Masquer auto la barre d\'état</string>
-    <string name="auto_hide_statusbar_summary">La barre d\'état sera masquée automatiquement quand il n\'y aura pas de notifications</string>
-    <string name="hidden_statusbar_pulldown_title">Barre d\'état temporaire</string>
-    <string name="hidden_statusbar_pulldown_summary">Lorsque la barre d\'état est masquée, un swipe vers le bas l\'affichera quelques secondes</string>
-    <string name="hidden_statusbar_pulldown_timeout_title">Délai de la barre d\'état</string>
-    <string name="hidden_statusbar_pulldown_timeout_summary">Délai pendant lequel la barre d\'état reste affichée</string>
+    <!-- Hide Status Bar -->
+    <string name="statusbar_behaviour">Comportement de la barre d\'état</string>
+    <string name="statusbar_visible">Afficher la barre d\'état</string>
+    <string name="statusbar_hide_title">Masquer la barre d\'état</string>
+    <string name="statusbar_hide_summary">Vous pouvez choisir entre 3 comportements de la barre</string>
+    <string name="statusbar_notification">Notifications seulement</string>
+    <string name="statusbar_pulldown">Mode déroulant</string>
+    <string name="statusbar_pulldown_notification">Notifications &amp; déroulant</string>
+    <string name="hidden_statusbar_pulldown_timeout_title">Délai avant ré-enroulage</string>
+    <string name="hidden_statusbar_pulldown_timeout_summary">Délai pendant lequel la barre d\'état restera affichée</string>
 
     <!-- Nav Bar Widgets -->
     <string name="navbar_widgets">Widgets - Barre de Navigation</string>
@@ -534,11 +532,13 @@
     <string name="transparency_dialog_transparency_sb_and_nv">Barre d\'état et de navigation</string>
     <string name="transparency_dialog_statusbar">Barre d\'état</string>
     <string name="transparency_dialog_navbar">Barre de navigation</string>
-    <string name="transparency_dialog_match_keyguard_alpha">Même opacité sur l\'écran de verrouillage</string>
+    <string name="transparency_dialog_match_keyguard_alpha">Même opacité que l\'écran de verrouillage</string>
     <string name="transparency_dialog_transparency">Opacité sur le lanceur</string>
     <string name="transparency_dialog_transparency_keyguard">Opacité sur l\'écran de verrouillage</string>
     <string name="navigation_bar_color_title">Couleur de la barre de navigation</string>
     <string name="status_bar_color_title">Couleur de la barre d\'état</string>
+    <string name="status_icon_color_title">Couleur des icônes</string>
+    <string name="status_enable_color_title">Mode de couleur des icônes</string>
 
     <!-- General UI | Other Modifications unknown -->
     <string name="custom_carrier_label_title">Nom d\'opérateur personnalisé</string>
@@ -615,19 +615,25 @@
 
    <!-- Ribbon -->
     <string name="ribbon_dialog_arrange_title">Disposition du ruban</string>
-    <string name="ribbon_instructions">Appuyer sur l\'icône pour le modifier</string>
+    <string name="ribbon_instructions">Appuyer sur l\'icône pour le modifier. Plus d'options dans le menu.</string>
+    <string name="ribbon_chooser_instructions">Sélectionner le ruban à configurer.</string>
     <string name="ribbon_targets_cat">Options du Ruban</string>
     <string name="enable_ribbon_text_title">Afficher le nom de l\'appli</string>
     <string name="enable_ribbon_text_summary">Afficher le nom de l\'appli en-dessous de l\'icône</string>
     <string name="ribbon_icon_vibrate_title">Vibrer à l\'appui d\'élément</string>
     <string name="ribbon_icon_space_title">Espace entre icônes</string>
     <string name="enable_ribbon_vibrate_title">Vibrer au toucher de l\'aire de swipe</string>
+    <string name="app_window_space_title">Espace vertical entre icônes</string>
+<!--    <string name="ribbon_dismiss_title">Ribbon dismiss action</string> -->
+    <string name="ribbon_animation_duration_title">Durée d\'animation</string>
+    <string name="ribbon_long_swipe_title">Long swipe dans l\'aire de swipe</string>
+    <string name="ribbon_long_press_title">Appui long dans l\'aire de swipe</string>
     <string name="ribbon_icon_size_title">Taille des icônes</string>
     <string name="ribbon_icon_size_summary">Définir la taille de vos icônes</string>
     <string name="ribbon_button_colorize_title">Couleur icône et texte identique</string>
     <string name="ribbon_lockscreen">Ruban Écran de verrouillage</string>
     <string name="ribbon_notifications">Ruban Notifications</string>
-    <string name="ribbon_quicksettings">Ruban Quick Settings</string>
+    <string name="ribbon_quicksettings">Ruban Tuiles</string>
     <string name="ribbon_swipe_left">Ruban par Swipe (gauche)</string>
     <string name="ribbon_swipe_right">Ruban par Swipe (droite)</string>
     <string name="ribbon_swipe_bottom">Ruban par Swipe (bas)</string>
@@ -653,9 +659,17 @@
     <string name="window_color_title">Couleur de la fenêtre</string>
     <string name="window_opacity_title">Opacité de la fenêtre</string>
     <string name="window_columns_title">Colonnes de la fenêtre</string>
+    <string name="window_app_hide_title">Choisir les appli. à masquer</string>
     <string name="center">Centrer</string>
     <string name="top">En haut</string>
     <string name="bottom">En bas</string>
+    <string name="never">Jamais</string>
+    <string name="always">Toujours</string>
+    <string name="not_bar">Pas d\'actions de barre de nav.</string>
+    <string name="multi_select_title">Choisir les éléments à ajouter</string>
+    <string name="ribbon_animation_type_title">Style d\'animation</string>
+    <string name="ribbon_toggles_button_title">Interrupteurs en bas</string>
+<!--    <string name="ribbon_hide_ime_title">Keyboard swipe area hide.</string> -->
 
     <!-- LED -->
     <string name="led_on">LED allumée:</string>
@@ -759,7 +773,7 @@
     <string name="lockscreen_auto_rotate_title">Rotation auto. de l\'écran de verr.</string>
     <string name="lockscreen_auto_rotate_summary">L\'écran de verrouillage aura la capacité de rotation par l\'intermédiaire du capteur d\'orientation de l\'appareil. Ceci est indépendant de la rotation automatique du reste du système.</string>
     <string name="lockscreen_all_widgets_title">Permettre tous les widgets</string>
-    <string name="lockscreen_all_widgets_summary">*Attention* Certains widgets ne sont pas destinés à être utilisés sur l\'écran de verrouillage. Le développeur du widget, l\'équipe XYE, ne sont pas responsables de votre choix de widgets.</string>
+    <string name="lockscreen_all_widgets_summary">*Attention* Certains widgets ne sont pas destinés à être utilisés sur l\'écran de verrouillage. Le développeur du widget, notre équipe, ne sont pas responsables de votre choix de widgets.</string>
     <string name="lockscreen_unlimited_widgets_title">Autoriser un nombre illimité de widgets</string>
     <string name="lockscreen_unlimited_widgets_summary">*Attention* Ajouter trop de widgets peut causer des problèmes de lenteur sur l\'écran de verrouillage.</string>
 
@@ -769,14 +783,14 @@
     <string name="screen_security_summary">Afficher ou modifier les paramètres de sécurité</string>
     
     <string name="additional_options_title">Déverrouillage</string>
-    <string name="unlock_menu_unlock_title">Déverrouiller par Menu</string>
+    <string name="unlock_menu_unlock_title">Déverrouillage par Menu</string>
     <string name="unlock_menu_unlock_summary">Déverrouillage de l\'écran en appuyant sur le bouton Menu</string>
-    <string name="unlock_home_unlock_title">Déverrouillage par bouton Home</string>
-    <string name="unlock_home_unlock_summary">Déverrouillage de l\'écran en appuyant sur le bouton Home</string>
+    <string name="unlock_home_unlock_title">Déverrouillage par bouton Accueil</string>
+    <string name="unlock_home_unlock_summary">Déverrouillage de l\'écran en appuyant sur le bouton Accueil</string>
+    <string name="lockscreen_longpress_challenge_title">Déverrouillage par Appui Long</string>
+    <string name="lockscreen_longpress_challenge_summary">Déverrouillage de l\'écran en appuyant sur l\'icône de verrouillage, avec les widgets maximisés.</string>
     <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
     <string name="unlock_quick_unlock_control_summary">Évite d\'appuyer sur OK lors de la saisie du code PIN ou du mot de passe.\nAttention : effacer compte comme un essai raté\u00A0!</string>
-    <string name="lockscreen_longpress_challenge_title">Déverrouiller par Appui Long</string>
-    <string name="lockscreen_longpress_challenge_summary">Déverrouillage de l\'écran en appuyant sur l\'icône de verrouillage, avec les widgets maximisés.</string>
 
     <string name="delay_and_timeout_title">Délai de verrouillage</string>
     <string name="slide_lock_delay_title">Modifier les délais</string>
@@ -798,14 +812,14 @@
 
     <!--- Lock clock -->
     <string name="lock_clock_title">Widget horloge</string>
-    <string name="lock_clock_summary">Afficher ou modifier la façon dont le widget \'cLock\' est affiché sur l\'écran d\'accueil ou de verrouillage</string>
+    <string name="lock_clock_summary">Afficher ou modifier la façon dont le widget DashClock est affiché sur l\'écran d\'accueil ou de verrouillage</string>
 
     <!-- Hybrid -->
     <string name="hybrid_settings_title">Paramètres Hybride</string>
     
     <string name="hybridmode_title">Mode Hybride</string>
-    <string name="hybridmode_on">Activé</string>
-    <string name="hybridmode_off">Désactivé</string>
+    <string name="hybridmode_on">ON</string>
+    <string name="hybridmode_off">OFF</string>
 
     <string name="uimode_title">Mode d\'interface du système</string>
     <string name="uimode_phone">Téléphone (360dp)</string>
