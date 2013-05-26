@@ -1,6 +1,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">UKG 설정</string>
+    <string name="app_name">설정</string>
 
     <!-- Header Strings -->
     <string name="user_interface">인터페이스</string>
