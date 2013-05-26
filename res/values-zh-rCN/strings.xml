@@ -687,39 +687,7 @@
     <string name="ram_bar_color_disabled">已禁用</string>
     <string name="ram_bar_button_help">帮助</string>
     <string name="ram_bar_button_reset">充值颜色</string>
-
-    <!-- General UI | LCD Density -->
-    <string name="lcd_density_title">LCD密度</string>
-    <string name="lcd_density_summary">更改手机LCD密度</string>
-    <string name="current_lcd_density">"当前密度:"</string>
-    <string name="lcd_density_wizard">LCD密度向导</string>
-    <string name="follow_through_title">跟着来！</string>
-    <string name="follow_through_summary">按照向导一步一步来</string>
-    <string name="stock_density_title">1. 改变密度值</string>
-    <string name="stock_density_summary">平板电脑160 普通手机240 Galaxy Nexus 320</string>
-    <string name="stock_density_changed_summary">"密度设置为:"</string>
-    <string name="reboot_title">2. 重新启动</string>
-    <string name="reboot_summary">重新启动后按照步骤继续进行</string>
-    <string name="clear_market_data_title">3. 清除市场数据</string>
-    <string name="clear_market_data_summary">此步骤清除数据，包括市场、谷歌播放服务和谷歌服务框架。</string>
-    <string name="clear_market_data_cleared">市场数据已清除</string>
-    <string name="clear_market_data_donot_cleared">"市场数据无法清除，请自己手动清除"</string>
-    <string name="reboot_cleardata_title">4. 重新启动</string>
-    <string name="reboot_cleardata_summary">重新启动后并完成其余的步骤！</string>
-    <string name="open_market_title">5. 打开市场点击接受</string>
-    <string name="open_market_summary">完成后请返回继续下一步</string>
-    <string name="open_market_summary_could_not_open">"无法打开市场，请确认你已安装市场"</string>
-    <string name="custom_density_title">6.改变为任意密度</string>
-    <string name="custom_density_summary">如若市场出现问题请重新操作</string>
-    <string name="custom_density_summary_invalid">"无效密度！"</string>
-    <string name="custom_density">自定义</string>
-    <string name="set_custom_density_title">设置自定义密度</string>
-    <string name="set_custom_density_set">设置</string>
-    <string name="custom_density_dialog_title">"警告！"</string>
-    <string name="custom_density_dialog_summary">"改变密度可能导致应用强制退出请重复以上步骤"</string>
-    <string name="custom_density_dialog_button_got">明白！</string>
-    <string name="custom_density_dialog_button_reboot">重启</string>
-
+    
    <!-- Ribbon -->
     <string name="ribbon_dialog_arrange_title">布局</string>
     <string name="ribbon_instructions">点击图示新增或删除动作</string>
@@ -854,7 +822,7 @@
     <string name="lockscreen_auto_rotate_title">允许锁屏时旋转</string>
     <string name="lockscreen_auto_rotate_summary">允许在锁屏状态时旋转屏幕，该选项独立生效，与显示界面的自动旋转无关。</string>
     <string name="lockscreen_all_widgets_title">允许所有小部件</string>
-    <string name="lockscreen_all_widgets_summary">警告** 一些小部件并不适用于锁屏界面，小部件作者及XYE对你的选择不承担责任。请谨慎选择。</string>
+    <string name="lockscreen_all_widgets_summary">警告** 一些小部件并不适用于锁屏界面，小部件作者及UKG对你的选择不承担责任。请谨慎选择。</string>
     <string name="lockscreen_unlimited_widgets_title">不限制使用的小部件数量</string>
     <string name="lockscreen_unlimited_widgets_summary">警告** 添加过多的小部件将导致锁屏界面不流畅。</string>
     <string name="lockscreen_longpress_challenge_title">开启长按解锁</string>
@@ -903,7 +871,7 @@
     <string name="lockscreen_vibrate_enabled_head">当正在解锁的时候振动</string>
     <!--- Lock clock -->
     <string name="lock_clock_title">时钟部件</string>
-    <string name="lock_clock_summary">"查看并更改 'cLock' 如何在桌面和锁屏小部件上显示"</string>
+    <string name="lock_clock_summary">"查看并更改 DashClock 如何在桌面和锁屏小部件上显示"</string>
 
     <!-- Hybrid -->
     <string name="hybrid_settings_title">混合特性</string>
