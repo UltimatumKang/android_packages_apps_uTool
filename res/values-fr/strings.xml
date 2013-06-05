@@ -535,11 +535,16 @@
     <string name="transparency_dialog_match_keyguard_alpha">Même opacité que l\'écran de verrouillage</string>
     <string name="transparency_dialog_transparency">Opacité sur le lanceur</string>
     <string name="transparency_dialog_transparency_keyguard">Opacité sur l\'écran de verrouillage</string>
+    <string name="navigation_bar_style_title">Mode de couleur de: barre de navigation</string>
     <string name="navigation_bar_color_title">Couleur de la barre de navigation</string>
+    <string name="status_bar_style_title">Mode de couleur de: barre d\'état</string>
     <string name="status_bar_color_title">Couleur de la barre d\'état</string>
+    <string name="status_icon_style_title">Mode de couleur de: icônes d\'état</string>
     <string name="status_icon_color_title">Couleur des icônes</string>
-    <string name="status_enable_color_title">Mode de couleur des icônes</string>
-
+    <string name="color">Couleur</string>
+    <string name="color_background">Fond avec couleur transparente</string>
+    <string name="background">Fond (Par défaut)</string>
+    
     <!-- General UI | Other Modifications unknown -->
     <string name="custom_carrier_label_title">Nom d\'opérateur personnalisé</string>
     <string name="custom_carrier_label_explain">Entrer votre valeur. Laisser vide pour revenir par défaut.</string>
@@ -815,7 +820,7 @@
     <string name="lock_clock_summary">Afficher ou modifier la façon dont le widget DashClock est affiché sur l\'écran d\'accueil ou de verrouillage</string>
 
     <!-- Hybrid -->
-    <string name="hybrid_settings_title">Paramètres Hybride</string>
+    <string name="hybrid_settings_title">Paramètres hybride</string>
     
     <string name="hybridmode_title">Mode Hybride</string>
     <string name="hybridmode_on">ON</string>
