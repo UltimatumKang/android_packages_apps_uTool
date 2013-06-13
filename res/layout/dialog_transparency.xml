@@ -60,14 +60,14 @@
             android:layout_marginBottom="10dip"
             android:layout_marginTop="10dip" />
 
-        <CheckBox
+        <!-- <CheckBox
             android:id="@+id/statusbar_match_keyguard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dip"
             android:checked="true"
             android:text="@string/transparency_dialog_match_keyguard_alpha"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:textAppearance="?android:attr/textAppearanceSmall" /> -->
 
         <LinearLayout
             android:id="@+id/navbar_layout"
@@ -117,14 +117,14 @@
                 android:layout_marginBottom="10dip"
                 android:layout_marginTop="10dip" />
 
-            <CheckBox
+            <!-- <CheckBox
                 android:id="@+id/navbar_match_keyguard"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dip"
                 android:checked="true"
                 android:text="@string/transparency_dialog_match_keyguard_alpha"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:textAppearance="?android:attr/textAppearanceSmall" /> -->
         </LinearLayout>
     </LinearLayout>
 
