@@ -33,6 +33,7 @@
     <string name="weather">天气</string>
     <string name="tools">工具</string>
     <string name="bar_cat">按键</string>
+    <string name="icon_cat">状态图标</string>
     <string name="notif_cat">通知</string>
 
     <!-- Activity titles defined in AndroidManifest.xml -->
@@ -49,11 +50,11 @@
     <string name="title_navring">导航圈</string>
     <string name="title_power_menu">电源菜单</string>
     <string name="title_led_control">LED控制</string>
-    <string name="title_lockscreen">锁屏界面</string>
-    <string name="title_ribbon">彩带捷径</string>
+    <string name="title_lockscreen">锁屏选项</string>
+    <string name="title_ribbon">操作区</string>
     <string name="title_hybridsettings">混合特性</string>
     <string name="title_clipboard_share">复制到剪贴板</string>
-    <string name="ribbon_settings_title">彩带捷径</string>
+    <string name="ribbon_settings_title">操作区选项</string>
 
     <!-- T-Mobile Theme chooser settings  -->
     <string name="themes_title">主题</string>
@@ -62,12 +63,17 @@
     <string name="clipboard_notification">复制到剪贴板</string>
 
     <!-- Menu Strings -->
-    <string name="menu_nav_bar_reset">重置导航栏</string>
     <string name="menu_main_activity_change_locale">区域设置</string>
-    <string name="menu_ribbon_rearrange">重置彩带捷径</string>
-    <string name="menu_user_interface_reset">重置背景壁纸</string>
-    <string name="menu_lockscreens_reset">重置锁屏壁纸</string>
-    <string name="menu_ribbon_reset">重置</string>
+    <string name="menu_nav_bar_reset">Reset nav bar</string>
+    <string name="menu_ribbon_reset">Reset ribbon</string>
+    <string name="menu_ribbon_apps">Reset apps</string>
+    <string name="menu_ribbon_rearrange">Rearrange ribbon</string>
+    <string name="menu_ribbon_hide">Hide apps</string>
+    <string name="menu_ribbon_toggles">Setup toggles</string>
+    <string name="menu_ribbon_na">Not available</string>
+    <string name="menu_ribbon_toggles_error">Toggles are only available for the left and right swipe ribbons.</string>
+    <string name="menu_user_interface_reset">Reset notification wallpaper</string>
+    <string name="menu_lockscreens_reset">Reset lockscreen wallpaper</string>
 
     <!-- General Strings -->
     <string name="advanced_settings">高级设置</string>
@@ -117,10 +123,11 @@
     <string name="expanded_desktop_no_status_bar">状态栏隐藏</string>
     <string name="title_show_navbar_hide">显示导航开关</string>
     <string name="title_show_reboot_keyguard">锁屏界面开启重启菜单</string>
+    <string name="title_show_power_keyguard">锁屏下显示关机</string>
 
     <!-- Status Bar Headers -->
     <string name="status_bar_clock_header">时钟</string>
-    <string name="status_bar_battery_header">电量</string>
+    <string name="status_bar_battery_header">电池</string>
     <string name="status_bar_signal_header">信号</string>
     <string name="status_bar_misc">杂项</string>
 
@@ -129,8 +136,8 @@
     <string name="status_bar_general_title">常规</string>
     <string name="clock_title_enable">时钟样式</string>
     <string name="title_clock_ampm_entries">上午/下午风格</string>
-    <string name="enable_clock_weekday">星期风格</string>
-    <string name="enable_clock_weekday_summary">显示当前是第几个工作日</string>
+    <string name="enable_clock_weekday">周几</string>
+    <string name="enable_clock_weekday_summary">在时间之前显示简写当前为周几</string>
     <string name="clock_color_title">时钟颜色</string>
     <string name="clock_color_style_title">时钟色彩风格</string>
     <string name="all_color">当前选择颜色</string>
@@ -144,6 +151,10 @@
     <string name="title_clock_doubleclick">时钟双击行为</string>
     <string name="title_clock_longclick">时钟长按行为</string>
     <string name="title_clock_shortclick">时钟短按行为</string>
+
+    <!-- Status bar notification icon opacity -->
+    <string name="status_bar_icon_opacity">通知图标不透明度</string>
+    <string name="status_bar_icon_opacity_summary">设置状态栏通知图标的不透明度</string>
 
     <!-- Clock | Date | SlimsROM -->
     <string name="clock_date_display">日历风格</string>
@@ -159,80 +170,110 @@
     <string name="lowercase">小写</string>
     <string name="uppercase">大写</string>
 
-    <!-- Pie controls -->
-    <string name="pie_controls_title">PIE控制</string>
-    <string name="enable_pie_title">启用PIE</string>
-    <string name="pie_targets_title">目标</string>
-
-    <!-- The Gravity -->
-    <string name="pie_gravity_title">PIE位置</string>
-    <string name="pie_gravity_summary">选择PIE的放置位置</string>
-    <string name="pie_gravity_top">顶部</string>
-    <string name="pie_gravity_bottom">底部</string>
-    <string name="pie_gravity_right">右侧</string>
-    <string name="pie_gravity_left">左侧</string>
-
-    <!-- The Mode -->
-    <string name="pie_mode_title">PIE样式</string>
-    <string name="pie_mode_summary">管理动画速度</string>
-    <string name="pie_mode_bare">空</string>
-    <string name="pie_mode_quick">快速</string>
-    <string name="pie_mode_default">默认</string>
-    <string name="pie_mode_slow">慢速</string>
-
-    <!-- The Size -->
-    <string name="pie_size_title">PIE大小</string>
-    <string name="pie_size_summary">定义PIE控制大小</string>
-    <string name="pie_size_small">小</string>
-    <string name="pie_size_large">大</string>
-    <string name="pie_size_gigantic">特大</string>
-
-    <!-- The Gap -->
-    <string name="pie_gap_title">PIE间距</string>
-    <string name="pie_gap_summary">调整PIE间距</string>
-    <string name="pie_gap_none">无</string>
-    <string name="pie_gap_small">小</string>
-    <string name="pie_gap_big">大</string>
-    <string name="pie_gap_huge">特大(默认)</string>
-
-    <!-- The trigger -->
-    <string name="pie_trigger_title">触发区</string>
-    <string name="pie_trigger_summary">设置PIE控制触发区域的大小</string>
-    <string name="pie_trigger_small">小</string>
-    <string name="pie_trigger_normal">正常(默认)</string>
-    <string name="pie_trigger_big">大</string>
-    <string name="pie_trigger_huge">特大</string>
-
-    <string name="pie_restart_launcher_title">重启启动器</string>
-    <string name="pie_restart_launcher_summary">这个操作会重启启动器，可能会导致屏幕显示有误。有些桌面部件也可能会出问题，小心使用。</string>
-
-    <!-- The Loner -->
-    <string name="pie_menu_title">菜单按钮</string>
-    <string name="pie_menu_summary">总是显示MENU键</string>
-
-    <string name="pie_search_title">搜索按钮</string>
-    <string name="pie_search_summary">在PIE中开启搜索按键</string>
-
-    <string name="pie_lastapp_title">最后应用</string>
-    <string name="pie_lastapp_summary">在PIE中开启最后应用键</string>
-
-    <string name="pie_center_title">中间对齐</string>
-    <string name="pie_center_summary">在屏幕中间的位置激活PIE</string>
-
-    <string name="pie_stick_title">防止旋转</string>
-    <string name="pie_stick_summary">选中此项PIE不会跟随重力改变位置</string>
-
-    <!-- The Colors -->
-    <string name="pie_color_title">PIE 颜色设置</string>
-    <string name="pie_color_style_title">PIE 色彩风格</string>
-    <string name="pie_background_title">背景颜色</string>
-    <string name="pie_select_title">选中颜色</string>
-    <string name="pie_outlines_title">概述颜色</string>
-    <string name="pie_status_clock_title">时钟颜色</string>
-    <string name="pie_status_title">事件颜色</string>
-    <string name="pie_chevron_left_title">左轮廓条颜色</string>
-    <string name="pie_chevron_right_title">右轮廓条颜色</string>
-    <string name="pie_juice_title">电池轮廓颜色</string>
+    <!-- Quick/Pie Control -->
+    <string name="pie_control_title">SlimPIE</string>
+    <string name="pie_control_dialog_title">SlimPIE</string>
+    <string name="pie_control_always">总是显示</string>
+    <string name="pie_control_expanded">扩展模式</string>
+    <string name="pie_control_disabled">禁用</string>
+    <string name="pie_control_size">导航栏尺寸</string>
+    <string name="pie_control_trigger_positions">触发器选项</string>
+    <string name="pie_control_trigger_left">左侧</string>
+    <string name="pie_control_trigger_bottom">底部</string>
+    <string name="pie_control_trigger_right">右侧</string>
+    <string name="pie_control_trigger_top">顶部</string>
+    <string name="pie_control_trigger_top_summary">仅导航会显示在顶部</string>
+    <string name="pie_button_style">按键风格</string>
+    <string name="pie_button_color_title">按键颜色</string>
+    <string name="pie_button_alpha_title">按键透明度</string>
+    <string name="pie_button_outline_color_title">按键轮廓颜色</string>
+    <string name="pie_button_pressed_color_title">按键按下颜色</string>
+    <string name="pie_button_long_pressed_color_title">按键长按颜色</string>
+    <string name="pie_button_pressed_alpha_title">按键按下透明度</string>
+    <string name="pie_icon_style">按键图标风格</string>
+    <string name="pie_icon_color_title">按键图标颜色</string>
+    <string name="pie_icon_color_mode_title">按键图标颜色模式</string>
+    <string name="pie_icon_color_mode_dialog_title">彩色化</string>
+    <string name="pie_icon_color_mode_summary">更改按键图标的颜色模式</string>
+    <string name="pie_icon_color_mode_all_icons">所有图标</string>
+    <string name="pie_icon_color_mode_system_icons">系统图标</string>
+    <string name="pie_icon_color_mode_system_custom_icons">系统和自定义图标</string>
+    <string name="pie_trigger_dimens_options">触发器尺寸</string>
+    <string name="pie_trigger_thickness_title">触发器厚度</string>
+    <string name="pie_trigger_height_title">触发器高度左右</string>
+    <string name="pie_trigger_gravity_left_right_title">触发器重力左右</string>
+    <string name="pie_trigger_gravity_left_right_dialog_title">设置左右的触发器重心</string>
+    <string name="pie_trigger_gravity_left_right_bottom">底部</string>
+    <string name="pie_trigger_gravity_left_right_center">中心</string>
+    <string name="pie_trigger_gravity_left_right_top">顶部</string>
+    <string name="menu_pie_trigger_settings_reset">重置触发器尺寸</string>
+    <string name="pie_trigger">触发器选项</string>
+    <string name="pie_trigger_note_title">注意</string>
+    <string name="pie_trigger_note_summary">为了避免与状态栏和导航栏冲突，如果一方或双方是可见的，触发器在这些边缘将自动关闭。</string>
+    <string name="pie_disable_ime_triggers_title">在键盘禁用触发器</string>
+    <string name="pie_disable_ime_triggers_summary">当键盘启用时，禁用或缩小触发器尺寸。</string>
+    <string name="pie_background_color_title">背景颜色</string>
+    <string name="pie_snap_color_title">轴心颜色</string>
+    <string name="pie_text_color_title">文本颜色</string>
+    <string name="pie_background_alpha_title">背景透明度</string>
+    <string name="pie_mirror_right_title">右镜像PIE</string>
+    <string name="pie_mirror_right_summary">右镜像PIE在水平轴上</string>
+    <string name="pie_style">风格和尺寸</string>
+    <string name="pie_style_title">风格</string>
+    <string name="pie_dimens_title">尺寸</string>
+    <string name="pie_additional_options">附加选项</string>
+    <string name="pie_show_snap_title">显示轴心</string>
+    <string name="pie_show_snap_summary">触发器边缘显示轴心</string>
+    <string name="pie_show_text_title">显示状态和时钟</string>
+    <string name="pie_show_text_summary">显示手机状态，时间和日期等信息</string>
+    <string name="pie_disable_statusbar_info_title">隐藏状态栏信息</string>
+    <string name="pie_disable_statusbar_info_summary">隐藏多余状态栏信息</string>
+    <string name="pie_show_background_title">显示背景</string>
+    <string name="pie_show_background_summary">PIE 启用屏幕背景</string>
+    <string name="menu_pie_style_reset">重置风格</string>
+    <string name="menu_pie_button_style_reset">重置按键风格</string>
+    <string name="menu_pie_button_reset">重置按键</string>
+    <string name="pie_qty_title">按键数量</string>
+    <string name="pie_qty_summary">改变这将重置您当前的按键</string>
+    <string name="pie_action_title">按键 %1$s 的行动与图标</string>
+    <string name="pie_longpress_title">按键 %1$s 长按行动</string>
+    <string name="pie_enable_long">长按按键</string>
+    <string name="pie_button">按键</string>
+    <string name="pie_button_cat">按键</string>
+    <string name="pie_buttons_options">按键选项</string>
+    <string name="pie_second_layer_title">启用第二层</string>
+    <string name="pie_second_layer_summary">启用或禁用第二个按键行</string>
+    <string name="pie_button_second_layer">按键第二层</string>
+    <string name="pie_button_second_layer_cat">按键第二层</string>
+    <string name="pie_action_custom_app">自定义应用</string>
+    <string name="pie_action_home">主屏幕</string>
+    <string name="pie_action_back">返回</string>
+    <string name="pie_action_recents">最近任务</string>
+    <string name="pie_action_lastapp">最后应用</string>
+    <string name="pie_action_search">搜索</string>
+    <string name="pie_action_screenshot">屏幕截图</string>
+    <string name="pie_action_quicksettings">快速开关面板</string>
+    <string name="pie_action_menu">菜单</string>
+    <string name="pie_action_ime">打开输入法切换</string>
+    <string name="pie_action_kill">结束应用</string>
+    <string name="pie_action_widgets">微件预览</string>
+    <string name="pie_action_power">关闭屏幕</string>
+    <string name="pie_action_notifications">通知</string>
+    <string name="pie_action_none">无</string>
+    <string name="color_default">默认</string>
+    <string name="halo_cat">HALO</string>
+    <string name="halo_hide_title">自动隐藏 HALO 通知</string>
+    <string name="halo_hide_summary">悬浮窗 HALO 将在有消息通知时自动显示，并在一定时间后自动隐藏</string>
+    <string name="halo_reversed_title">反向 HALO 手势</string>
+    <string name="halo_reversed_summary">启用适用于 HALO 任务处理或双击滑动/长按拖动的动作手势</string>
+    <string name="halo_state_title">HALO 规则</string>
+    <string name="halo_state_summary">通过黑/白名单来进行HALO通知</string>
+    <string name="halo_state_black">黑名单</string>
+    <string name="halo_state_white">白名单</string>
+    <string name="halo_pause_title">暂停活动的应用程序</string>
+    <string name="halo_pause_summary">当HALO打开一个应用程序与底层的应用程序将暂停</string>
+    <string name="halo_style_title">HALO极简风格</string>
+    <string name="halo_style_summary">HALO设置时的不同风格</string>
 
     <!-- Battery style -->
     <string name="battery_icon_title">电量样式</string>
@@ -285,8 +326,8 @@
     <string name="center_clock">中心时钟</string>
     <string name="no_clock">无时钟</string>
     <string name="dont_show">不显示</string>
-    <string name="small_am_pm">迷你 AM/PM</string>
-    <string name="regular_am_pm">正常 AM/PM</string>
+    <string name="small_am_pm">迷你 上午/下午</string>
+    <string name="regular_am_pm">正常 上午/下午</string>
     <string name="small_weekday">迷你</string>
     <string name="regular_weekday">正常</string>
 
@@ -478,11 +519,11 @@
     <string name="notifications">通知</string>
     <string name="custom_app">自定义应用</string>
     <string name="menu_power">电源菜单</string>
-    <string name="aokp_ribbon">AOKP彩带捷径</string>
+    <string name="aokp_ribbon">AOKP 操作区</string>
     <string name="nav_widgets">导航插件</string>
     <string name="blank">空白</string>
     <string name="none">无</string>
-    <string name="take_screenshot">提取截图</string>
+    <string name="take_screenshot">屏幕截图</string>
     <string name="ring_vib">铃声/振动</string>
     <string name="ring_silent">铃声/静音</string>
     <string name="ring_vib_silent">铃声/振动/静音</string>
@@ -560,15 +601,18 @@
     <string name="navbar_icon_menu">自定义图标</string>
     <string name="navbar_delete_menu">删除虚拟键</string>
 
-    <!-- Auto-Hide Status Bar -->
-    <string name="auto_hide_statusbar">自动隐藏状态栏</string>
-    <string name="auto_hide_statusbar_summary">当没有通知时自动隐藏状态栏</string>
+    <string name="statusbar_behaviour">状态栏行为</string>
+    <string name="statusbar_visible">显示状态栏</string>
+
+    <!-- Hide Status Bar -->
+    <string name="statusbar_hide_title">隐藏状态栏</string>
 
     <!-- Hidden Statusbar Pulldown -->
-    <string name="hidden_statusbar_pulldown_title">隐藏状态栏下拉</string>
-    <string name="hidden_statusbar_pulldown_summary">允许状态栏在使用全屏应用程序时拉下来</string>
-    <string name="hidden_statusbar_pulldown_timeout_title">隐藏状态栏下拉超时</string>
-    <string name="hidden_statusbar_pulldown_timeout_summary">隐藏状态栏窗口超时</string>
+    <string name="statusbar_hide_summary">选择状态栏行为</string>
+    <string name="statusbar_notification">通知栏</string>
+    <string name="statusbar_pulldown">下拉状态栏</string>
+    <string name="statusbar_pulldown_notification">下拉和通知栏</string>
+    <string name="hidden_statusbar_pulldown_timeout_summary">超时后隐藏状态栏</string>
 
     <!-- Nav Bar Widgets -->
     <string name="navbar_widgets">导航栏插件</string>
@@ -612,8 +656,15 @@
     <string name="transparency_dialog_match_keyguard_alpha">匹配锁屏界面透明度</string>
     <string name="transparency_dialog_transparency">主屏幕不透明度</string>
     <string name="transparency_dialog_transparency_keyguard">锁屏界面不透明度</string>
+    <string name="navigation_bar_style_title">导航栏颜色风格</string>
     <string name="navigation_bar_color_title">导航栏颜色</string>
-    <string name="status_bar_color_title">状态栏颜色</string>
+    <string name="status_bar_style_title">状态颜色风格</string>
+    <string name="status_bar_color_title">状态颜色</string>
+    <string name="color">颜色</string>
+    <string name="color_background">背景颜色与透明度</string>
+    <string name="background">背景(默认)</string>
+    <string name="status_icon_style_title">状态图标颜色风格</string>
+    <string name="status_icon_color_title">状态图标颜色</string>
 
     <!-- General UI | Other Modifications unknown -->
     <string name="custom_carrier_label_title">自定义运营商</string>
@@ -697,7 +748,12 @@
     <string name="enable_ribbon_text_summary">图示下方显示捷径名称</string>
     <string name="ribbon_icon_vibrate_title">点击触动回馈</string>
     <string name="ribbon_icon_space_title">捷径图标间距</string>
-    <string name="ribbon_icon_size_title">捷径图示大小</string>
+    <string name="app_window_space_title">垂直图标间距</string>
+    <string name="ribbon_icon_size_title">图标尺寸</string>
+    <string name="ribbon_dismiss_title">操作区取消动作</string>
+    <string name="ribbon_animation_duration_title">动画持续时间</string>
+    <string name="ribbon_long_swipe_title">滑动区长划</string>
+    <string name="ribbon_long_press_title">滑动区长按</string>
     <string name="ribbon_icon_size_summary">设定捷径图示的大小</string>
     <string name="ribbon_lockscreen">锁屏捷径</string>
     <string name="ribbon_notifications">通知栏捷径</string>
@@ -705,6 +761,7 @@
     <string name="ribbon_swipe_left">左侧滑动出现捷径</string>
     <string name="ribbon_swipe_right">右侧滑动出现捷径</string>
     <string name="ribbon_swipe_bottom">底部滑动出现捷径</string>
+    <string name="app_window">应用窗口</string>
     <string name="clone_title">选定将要复制捷径</string>
     <string name="icon_size_normal">正常</string>
     <string name="icon_size_20">中等</string>
@@ -723,9 +780,21 @@
     <string name="ribbon_insert">新增按键</string>
     <string name="ribbon_handle_location_title">手势触发区位置</string>
     <string name="ribbon_icon_location_title">图示捷径排序</string>
+    <string name="window_text_color_title">窗口文字颜色</string>
+    <string name="window_color_title">窗口颜色</string>
+    <string name="window_opacity_title">窗口不透明度</string>
+    <string name="window_columns_title">窗口列</string>
+    <string name="window_app_hide_title">选择需要隐藏的应用</string>
     <string name="center">置中</string>
     <string name="top">上半部</string>
     <string name="bottom">下半部</string>
+    <string name="never">从不</string>
+    <string name="always">总是</string>
+    <string name="not_bar">不是导航栏动作</string>
+    <string name="multi_select_title">选择目标添加</string>
+    <string name="ribbon_animation_type_title">动画风格</string>
+    <string name="ribbon_toggles_button_title">切换按钮在底部</string>
+    <string name="ribbon_hide_ime_title">键盘滑动区域隐藏</string>
 
     <!-- LED -->
     <string name="led_on">LED开启</string>
@@ -780,6 +849,33 @@
 
     <!-- NEW METHOD PEWDIEPIE CODE -->
     
+    <!-- Lock screen shortcuts -->
+    <string name="picker_activities">活动</string>
+    <string name="icon_picker_choose_icon_title">选择图标</string>
+    <string name="icon_picker_alarm">闹钟</string>
+    <string name="icon_picker_browser">浏览器</string>
+    <string name="icon_picker_calendar">日历</string>
+    <string name="icon_picker_camera">相机</string>
+    <string name="icon_picker_chrome">Chrome</string>
+    <string name="icon_picker_contacts">联系人</string>
+    <string name="icon_picker_email">Email</string>
+    <string name="icon_picker_email2">Email Holo</string>
+    <string name="icon_picker_facebook">Facebook</string>
+    <string name="icon_picker_gallery">图库</string>
+    <string name="icon_picker_google_small">Google（小）</string>
+    <string name="icon_picker_googleplus">Google Plus</string>
+    <string name="icon_picker_googletalk">Google Talk</string>
+    <string name="icon_picker_maps">地图</string>
+    <string name="icon_picker_movie">电影播放器</string>
+    <string name="icon_picker_music">音乐播放器</string>
+    <string name="icon_picker_nav_normal">导航</string>
+    <string name="icon_picker_phone">电话</string>
+    <string name="icon_picker_podcast">播客</string>
+    <string name="icon_picker_rss">订阅</string>
+    <string name="icon_picker_search">搜索</string>
+    <string name="icon_picker_sms">信息</string>
+    <string name="icon_picker_twitter">Twitter</string>
+
     <!-- String for IconPicker -->
     <string name="icon_picker_title">选择图标来源</string>
     <string name="icon_picker_system_icons_title">系统图标</string>
@@ -869,9 +965,9 @@
     <!-- Lock screen vibrate settings -->
     <string name="lockscreen_vibrate_enabled_title">振动</string>
     <string name="lockscreen_vibrate_enabled_head">当正在解锁的时候振动</string>
-    <!--- Lock clock -->
-    <string name="lock_clock_title">时钟部件</string>
-    <string name="lock_clock_summary">"查看并更改 DashClock 如何在桌面和锁屏小部件上显示"</string>
+    <!--- Dash clock -->
+    <string name="dash_clock_title">时钟部件</string>
+    <string name="dash_clock_summary">"查看并更改 DashClock 如何在桌面和锁屏小部件上显示"</string>
 
     <!-- Hybrid -->
     <string name="hybrid_settings_title">混合特性</string>
