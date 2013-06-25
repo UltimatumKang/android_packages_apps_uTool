@@ -126,6 +126,81 @@
     <string name="statusbar_bg">HintergrungStatusleisten</string>
     <string name="navbar_bg_color">Hintergrund der Navigationsleiste</string>
 
+    <!-- SlimPIE -->
+    <string name="pie_control_title">SlimPIE</string>
+    <string name="pie_control_dialog_title">SlimPIE</string>
+    <string name="pie_control_always">Immer anzeigen</string>
+    <string name="pie_control_expanded">Nur im \"erweiterten Desktop\" Modus</string>
+    <string name="pie_control_disabled">Deaktiviert</string>
+    <string name="pie_control_size">Größe des Navigationsfeldes</string>
+    <string name="pie_control_trigger_positions">Trigger-Optionen</string>
+    <string name="pie_control_trigger_left">Trigger am linken Bildschirmrand</string>
+    <string name="pie_control_trigger_bottom">Trigger am unteren Bildschirmrand</string>
+    <string name="pie_control_trigger_right">Trigger am rechten Bildschirmrand</string>
+    <string name="pie_control_trigger_top">Trigger am oberen Bildschirmrand</string>
+    <string name="pie_control_trigger_top_summary">Nur das Navigationsfeld wird oben angezeigt</string>
+    <string name="pie_button_style">Tastenlayout</string>
+    <string name="pie_button_color_title">Farbe der Tasten</string>
+    <string name="pie_button_alpha_title">Transparenz der Tasten</string>
+    <string name="pie_button_outline_color_title">Konturfarbe der Tasten</string>
+    <string name="pie_button_pressed_color_title">Farbe bei gedrückter Taste</string>
+    <string name="pie_button_long_pressed_color_title">Farbe bei langem Druck auf die Taste</string>
+    <string name="pie_button_pressed_alpha_title">Transparenz bei langem Druck auf die Taste</string>
+    <string name="pie_icon_style">Layout der Tastensymbole</string>
+    <string name="pie_icon_color_title">Farbe der Tastensymbole</string>
+    <string name="pie_icon_color_mode_title">Farbmodus der Tastensymbole</string>
+    <string name="pie_icon_color_mode_dialog_title">Farbe</string>
+    <string name="pie_icon_color_mode_summary">Farbmodus der Tastensymbole ändern</string>
+    <string name="pie_icon_color_mode_all_icons">Alle Symbole</string>
+    <string name="pie_icon_color_mode_system_icons">Systemsymbole</string>
+    <string name="pie_icon_color_mode_system_custom_icons">System und eigene Symbole</string>
+    <string name="pie_trigger_size_title">Trigger-Größe</string>
+    <string name="pie_trigger">Trigger-Optionen</string>
+    <string name="pie_trigger_note_title">Hinweis</string>
+    <string name="pie_trigger_note_summary">Um Konflikte mit Status- oder Navigationsleiste zu vermeiden werden die Trigger an den Rändern automatisch abgeschaltet wenn eine oder beide der Leisten sichtbar sind.</string>
+    <string name="pie_disable_ime_triggers_title">Trigger auf Tastatur deaktivieren</string>
+    <string name="pie_disable_ime_triggers_summary">Deaktiviert und reduziert die Größe des Triggers in Tastaturnähe wenn aktiviert</string>
+    <string name="pie_background_color_title">Hintergrundfarbe</string>
+    <string name="pie_snap_color_title">Snap-Punkt Farbe</string>
+    <string name="pie_text_color_title">Textfarbe</string>
+    <string name="pie_background_alpha_title">Hintergrund Transparenz</string>
+    <string name="pie_style">Layout und Größe</string>
+    <string name="pie_style_title">Layout</string>
+    <string name="pie_dimens_title">Größe</string>
+    <string name="pie_additional_options">Zusätzliche Einstellungen</string>
+    <string name="pie_show_snap_title">Snap-Punkte anuzeigen</string>
+    <string name="pie_show_snap_summary">Zeigt die Snap-Punkte an um den Rand des Triggers dynamisch zu verändern</string>
+    <string name="pie_show_text_title">Status und Uhr anzeigen</string>
+    <string name="pie_show_text_summary">Telefoninformationen, Zeit und Datum anzeigen</string>
+    <string name="pie_disable_statusbar_info_title">Statusleisteninformation verstecken</string>
+    <string name="pie_disable_statusbar_info_summary">Redundante Statusleisteninformationen ausblenden</string>
+    <string name="pie_show_background_title">Hintergrund anzeigen</string>
+    <string name="pie_show_background_summary">PIE Bildschirmhintergrund aktivieren</string>
+    <string name="menu_pie_style_reset">Style zurücksetzen</string>
+    <string name="menu_pie_button_style_reset">Layout der Reset-Taste</string>
+    <string name="menu_pie_button_reset">Reset Tasten</string>
+    <string name="pie_qty_title">Anzahl der Tasten</string>
+    <string name="pie_qty_summary">Änderungen an dieser Einstellung wird alle Deine aktuellen Tasten zurücksetzen</string>
+    <string name="pie_action_title">Taste %1$s Aktion &amp; Symbol</string>
+    <string name="pie_longpress_title">Taste %1$s Aktion (gedrückt halten)</string>
+    <string name="pie_enable_long">Langen Tastendruck für PIE Tasten aktivieren</string>
+    <string name="pie_button">Schaltflächen</string>
+    <string name="pie_button_cat">Schaltflächen</string>
+    <string name="pie_action_custom_app">Eigene App</string>
+    <string name="pie_action_home">Home Taste</string>
+    <string name="pie_action_back">Zurück</string>
+    <string name="pie_action_recents">Letzte Apps</string>
+    <string name="pie_action_lastapp">Zur letzten App wechseln</string>
+    <string name="pie_action_search">Suche</string>
+    <string name="pie_action_screenshot">Bildschirmfoto</string>
+    <string name="pie_action_menu">Öffne/Schließe Menü</string>
+    <string name="pie_action_ime">Eingabemethoden öffnen</string>
+    <string name="pie_action_kill">App beenden</string>
+    <string name="pie_action_widgets">Widgetleiste</string>
+    <string name="pie_action_power">Bildschirm aus</string>
+    <string name="pie_action_notifications">Benachrichtigungen</string>
+    <string name="pie_action_none">Keine</string>
+
     <!-- Quick Toggles | AOKP -->
     <string name="toggle_airplane_mode">Flugzeugmodus</string>
     <string name="toggle_auto_rotate">Auto Rotation</string>
@@ -156,10 +231,6 @@
     <string name="toggle_enable_fasttoggle_summary">Möglichkeit, die toggle direkt zu ziehen im Gegensatz zum Standard JB Verhalten</string>
     <string name="toggle_choose_fasttoggle_side_title">Wähle fast toggle Seite</string>
     <string name="toggle_choose_fasttoggle_side_summary">Wähle, auf welcher Seite das fast toggle erscheint</string>
-
-    <!-- holo theme style for Quick Setting tiles -->
-    <string name="quicksettings_theme_style_summary">Wähle zwischen holo light oder holo dark</string>
-    <string name="quick_text_color_title">Textfarbe</string>
 
     <!-- Navigation Bar -->
     <string name="right">Rechts</string>

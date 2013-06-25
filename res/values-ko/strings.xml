@@ -157,81 +157,7 @@
     <string name="lowercase">소문자</string>
     <string name="uppercase">대문자</string>
 
-    <!-- Pie controls -->
-    <string name="pie_controls_title">조작</string>
-    <string name="enable_pie_title">파이 활성화</string>
-    <string name="pie_targets_title">타켓</string>
-
-    <!-- The Gravity -->
-    <string name="pie_gravity_title">파이 위치</string>
-    <string name="pie_gravity_summary">파이가 위치할 장소를 설정합니다.</string>
-    <string name="pie_gravity_top">위</string>
-    <string name="pie_gravity_bottom">아래</string>
-    <string name="pie_gravity_right">오른쪽</string>
-    <string name="pie_gravity_left">왼쪽</string>
-
-    <!-- The Mode -->
-    <string name="pie_mode_title">파이 스타일</string>
-    <string name="pie_mode_summary">애니메이션 및 기타 상태 추가가 어떻게 될 것인가 설정합니다.</string>
-    <string name="pie_mode_bare">매우 느리게</string>
-    <string name="pie_mode_quick">빠르게</string>
-    <string name="pie_mode_default">보통 속도로 (기본값)</string>
-    <string name="pie_mode_slow">느리게</string>
-
-    <!-- The Size -->
-    <string name="pie_size_title">파이 크기</string>
-    <string name="pie_size_summary">파이의 크기를 설정합니다.</string>
-    <string name="pie_size_small">작게</string>
-    <string name="pie_size_default">보통 크기로</string>
-    <string name="pie_size_large">크게</string>
-    <string name="pie_size_gigantic">매우 크게</string>
-
-    <!-- The Gap -->
-    <string name="pie_gap_title">항목 사이 간격</string>
-    <string name="pie_gap_summary">파이의 항목 사이 간격을 조정합니다.</string>
-    <string name="pie_gap_none">없음</string>
-    <string name="pie_gap_small">작게</string>
-    <string name="pie_gap_big">크게</string>
-    <string name="pie_gap_huge">매우 크게 (기본값)</string>
-
-    <!-- The trigger -->
-    <string name="pie_trigger_title">발생 영역</string>
-    <string name="pie_trigger_summary">파이 컨트롤이 발생할 영역의 크기를 설정합니다.</string>
-    <string name="pie_trigger_small">작게 </string>
-    <string name="pie_trigger_normal">보통 크기로 (기본값)</string>
-    <string name="pie_trigger_big">크게</string>
-    <string name="pie_trigger_huge">매우 크게</string>
-
-    <string name="pie_restart_launcher_title">활성화/비활성화시 런쳐 다시 시작</string>
-    <string name="pie_restart_launcher_summary">화면 크기를 조정하는 것은 좋지 않은 영향을 가져올 수 있습니다. \n이 옵션은 런쳐가 정상적으로 회복하게 만들며, 약간의 블랙아웃 현상이 있습니다. (권장사항)</string>
-
-    <!-- The Loner -->
-    <string name="pie_menu_title">메뉴 버튼 항상 표시</string>
-    <string name="pie_menu_summary">필요하지 않을 때라도 메뉴 버튼을 표시합니다.</string>
-
-    <string name="pie_search_title">검색 버튼</string>
-    <string name="pie_search_summary">검색 버튼을 파이에 추가합니다.</string>
-
-    <string name="pie_lastapp_title">마지막 앱 전환 버튼</string>
-    <string name="pie_lastapp_summary">파이에 마지막 앱 전환 버튼을 추가합니다.</string>
-
-    <string name="pie_center_title">중앙에 위치</string>
-    <string name="pie_center_summary">발생 영역의 중앙에 파이를 위치합니다.</string>
-
-    <string name="pie_stick_title">회전 방지</string>
-    <string name="pie_stick_summary">화면 회전시에도 파이의 위치를 변경하지 않습니다.</string>
-
-    <!-- The Colors -->
-    <string name="pie_color_title">색상 설정</string>
-    <string name="pie_color_style_title">사용자 지정 색상 설정</string>
-    <string name="pie_background_title">배경 색상</string>
-    <string name="pie_select_title">선택 항목 색상</string>
-    <string name="pie_outlines_title">외곽선 색상</string>
-    <string name="pie_status_clock_title">시계 색상</string>
-    <string name="pie_status_title">상태 색상</string>
-    <string name="pie_chevron_left_title">왼쪽 사분원 색상</string>
-    <string name="pie_chevron_right_title">오른쪽 사분원 색상</string>
-    <string name="pie_juice_title">배터리 바 색상</string>
+    <!-- SlimPIE -->
 
     <!-- Battery style -->
     <string name="battery_icon_title">배터리 스타일</string>
@@ -915,8 +841,8 @@
 
 
     <!--- Lock clock -->
-    <string name="lock_clock_title">시계 위젯</string>
-    <string name="lock_clock_summary">DashClock 위젯이 홈 화면과 잠금화면에 어떻게 표시될 지 설정합니다.</string>
+    <string name="dash_clock_title">시계 위젯</string>
+    <string name="dash_clock_summary">DashClock 위젯이 홈 화면과 잠금화면에 어떻게 표시될 지 설정합니다.</string>
 
 
     <!-- LED brightness entries -->

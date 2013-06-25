@@ -142,81 +142,7 @@
     <string name="lowercase">Minúscula</string>
     <string name="uppercase">Mayúscula</string>
 
-    <!-- Pie controls -->
-    <string name="pie_controls_title">Controles</string>
-    <string name="enable_pie_title">Habilitar PIE</string>
-    <string name="pie_targets_title">Metas</string>
-
-    <!-- The Gravity -->
-    <string name="pie_gravity_title">Gravedad del PIE</string>
-    <string name="pie_gravity_summary">Seleccione la Ubicación donde se Colocará el PIE</string>
-    <string name="pie_gravity_top">Arriba</string>
-    <string name="pie_gravity_bottom">Abajo</string>
-    <string name="pie_gravity_right">Derecha</string>
-    <string name="pie_gravity_left">Izquierda</string>
-
-    <!-- The Mode -->
-    <string name="pie_mode_title">Estilo del PIE</string>
-    <string name="pie_mode_summary">Administre cómo las Animaciones y Adiciones de Estado se Manejarán</string>
-    <string name="pie_mode_bare">Sencilla</string>
-    <string name="pie_mode_quick">Rápido</string>
-    <string name="pie_mode_default">Normal (predeterminado)</string>
-    <string name="pie_mode_slow">Lento</string>
-
-    <!-- The Size -->
-    <string name="pie_size_title">Tamaño del PIE</string>
-    <string name="pie_size_summary">Definir el Tamaño de los Controles del PIE</string>
-    <string name="pie_size_small">Pequeño</string>
-    <string name="pie_size_default">Normal (predeterminado)</string>
-    <string name="pie_size_large">Grande</string>
-    <string name="pie_size_gigantic">Gigante</string>
-
-    <!-- The Gap -->
-    <string name="pie_gap_title">Espacio entre Elementos</string>
-    <string name="pie_gap_summary">Ajustar el Espacio que Separa los Elementos</string>
-    <string name="pie_gap_none">Ninguno</string>
-    <string name="pie_gap_small">Pequeño</string>
-    <string name="pie_gap_big">Grande</string>
-    <string name="pie_gap_huge">Enorme (por defecto)</string>
-
-    <!-- The trigger -->
-    <string name="pie_trigger_title">Área de Activación</string>
-    <string name="pie_trigger_summary">Determinar el Tamaño de la Zona que Iniciará los Controles del PIE</string>
-    <string name="pie_trigger_small">Pequeño</string>
-    <string name="pie_trigger_normal">Normal (predeterminado)</string>
-    <string name="pie_trigger_big">Grande</string>
-    <string name="pie_trigger_huge">Enorme</string>
-
-    <string name="pie_restart_launcher_title">Reiniciar Lanzador</string>
-    <string name="pie_restart_launcher_summary">Cambiar el tamaño de pantalla puede tener efectos adversos. Esta opción permite que su lanzador recupere el buen funcionamiento, el costo es un ligero apagón (recomendado)</string>
-
-    <!-- The Loner -->
-    <string name="pie_menu_title">Botón de Menú Persistente</string>
-    <string name="pie_menu_summary">Mostrar siempre el botón de menú, incluso cuando no es necesario</string>
-
-    <string name="pie_search_title">Botón de Búsqueda</string>
-    <string name="pie_search_summary">Habilitar botón de búsqueda en los controles del PIE</string>
-
-    <string name="pie_lastapp_title">Botón de Última Aplicación</string>
-    <string name="pie_lastapp_summary">Habilitar botón de última aplicación en los controles del PIE</string>
-
-    <string name="pie_center_title">Alineación Media</string>
-    <string name="pie_center_summary">Centrar PIE en el Área de Activación</string>
-
-    <string name="pie_stick_title">Impedir la Rotación</string>
-    <string name="pie_stick_summary">Si se selecciona, el PIE siempre conservará su lugar sin importar la orientación</string>
-
-    <!-- The Colors -->
-    <string name="pie_color_title">Configuración de Colores </string>
-    <string name="pie_color_style_title">Habilitar Colores Personalizados</string>
-    <string name="pie_background_title">Color de Fondo</string>
-    <string name="pie_select_title">Selección de Color</string>
-    <string name="pie_outlines_title">Esquemas de Color</string>
-    <string name="pie_status_clock_title">Color del Reloj</string>
-    <string name="pie_status_title">Color del Estado</string>
-    <string name="pie_chevron_left_title">Color de Línea Izquierda</string>
-    <string name="pie_chevron_right_title">Color de Línea Derecha</string>
-    <string name="pie_juice_title">Color de la Batería</string>
+    <!-- SlimPIE -->
 
     <!-- Battery style -->
     <string name="battery_icon_title">Estilo de la Batería</string>
@@ -730,8 +656,8 @@
     <string name="lockscreen_use_widget_container_carousel_summary">Utilizar animación de carrusel al cambiar entre los widgets de la pantalla de bloqueo</string>
 
     <!--- Lock clock -->
-    <string name="lock_clock_title">Widget de Reloj</string>
-    <string name="lock_clock_summary">Ver o cambiar la forma en que los widgets de DashClock se muestran en la pantalla de inicio y en la pantalla de bloqueo</string>
+    <string name="dash_clock_title">Widget de Reloj</string>
+    <string name="dash_clock_summary">Ver o cambiar la forma en que los widgets de DashClock se muestran en la pantalla de inicio y en la pantalla de bloqueo</string>
 
     <!-- Hybrid -->
     <string name="hybrid_settings_title">Configuraciones Híbridas</string>
