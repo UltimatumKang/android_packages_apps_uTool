@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">Outils</string>
+    <string name="app_name">Outils uXylon</string>
 
     <!-- Header Strings -->
     <string name="user_interface">Interface Générale</string>
@@ -59,7 +59,7 @@
     <string name="themes_title">Thèmes</string>
 
     <!-- Share to clipboard -->
-    <string name="clipboard_notification">Copié dans le Presse-Papiers.</string>
+    <string name="clipboard_notification">Copié dans le presse-papiers.</string>
 
     <!-- Menu Strings -->
     <string name="menu_ribbon_toggles">Configurer les interrupteurs</string>
@@ -106,6 +106,7 @@
     <string name="set">Ok</string>
 
     <!-- Power Menu -->
+    <string name="title_show_profiles">Profils</string>
     <string name="title_show_screenshot">Capture d\'écran</string>
     <string name="title_show_airplane_toggle">Mode avion</string>
     <string name="power_menu_expanded_desktop">Bureau étendu</string>
@@ -128,6 +129,7 @@
     <string name="status_bar_misc">Divers</string>
 
     <!-- Status Bar -->
+    <string name="status_bar_clock_enable_title">Afficher l\'horloge</string>
     <string name="status_bar_clock_title">Style de l\'horloge</string>
     <string name="status_bar_general_title">Général</string>
     <string name="clock_title_enable">Style de l\'horloge</string>
@@ -258,14 +260,23 @@
 
     <!-- HALO -->
     <string name="halo_cat">HALO</string>
-    <string name="halo_hide_title">Masquer HALO après activité</string>
-    <string name="halo_hide_summary">HALO va apparaître pour une tâche, puis disparaître peu après.</string>
-    <string name="halo_reversed_title">Inverser les gestes HALO</string>
-    <string name="halo_reversed_summary">Applies tasking or dragging to the double-tap-swipe gesture</string>
-    <string name="halo_state_title">Politique du HALO</string>
-    <string name="halo_state_summary">Pour ajouter les notifications du HALO dans une liste noire/blanche</string>
-    <string name="halo_state_black">Liste blanche</string>
-    <string name="halo_state_white">Liste noire</string>
+    <string name="halo_hide_title">Masquer après activité</string>
+    <string name="halo_hide_summary">Il va apparaître pour une tâche, puis se cacher peu après</string>
+    <string name="halo_reversed_title">Inverser les gestes</string>
+    <string name="halo_reversed_summary">Inversé = Appui double pour interargir et simple pour déplacer</string>
+    <string name="halo_state_title">Gestion des notifications</string>
+    <string name="halo_state_summary">Gestion des notifications affichées par une liste noire ou blanche (Paramètres, applications, sélectionner une appli)</string>
+    <string name="halo_state_black">Par liste noire</string>
+    <string name="halo_state_white">Par liste blanche</string>
+    <string name="halo_pause_title">Pause de l\'application</string>
+    <string name="halo_pause_summary">En ouvrant une application en pop-up, l\'application en cours sera mise en pause</string>
+    <string name="halo_colors_title">Couleurs personnalisées</string>
+    <string name="halo_colors_summary">Utiliser des couleurs personnalisées pour le HALO plutôt que les couleurs d\'origine</string>
+    <string name="halo_circle_color_title">Couleur du cercle</string>
+    <string name="halo_bubble_color_title">Couleur de la bulle</string>
+    <string name="halo_bubble_text_color_title">Couleur du texte de la bulle</string>
+    <string name="halo_effect_color_title">Couleur de l\'effet</string>
+    <string name="halo_effect_color_summary">Redémarrage de l\'interface nécessaire</string>
 
     <!-- Battery style -->
     <string name="battery_icon_title">Style de batterie</string>
@@ -335,6 +346,8 @@
     <string name="toggles_display_close">Fermer</string>
     <string name="reset_toggles_title">Réinitialiser les interrupteurs</string>
     <string name="reset_toggles_summary">Réinitialiser tous les interrupteurs et leur ordre</string>
+    <string name="toggle_collapse_generic_title">Enrouler après action</string>
+    <string name="toggle_collapse_generic_summary">Fermer la barre de notif. après l\'appui sur une tuile</string>
     <string name="toggle_favcontact_title">Contact favoris</string>
     <string name="toggle_favcontact_summary">Choisir votre contact favoris à afficher</string>
     <string name="toggle_enable_fasttoggle_title">Activer les tuiles rapides</string>
@@ -422,7 +435,7 @@
     <string name="title_expanded_widget">Power Widget</string>
     <string name="power_widget_buttons">Boutons</string>
     <string name="power_widget_behavior">Comportement</string>
-    <string name="title_expanded_hide_onchange">Fermer (Après action)</string>
+    <string name="title_expanded_hide_onchange">Fermer (après action)</string>
     <string name="title_expanded_hide_indicator">Masquer indicateurs</string>
     <string name="title_expanded_hide_scrollbar">Masquer barre de défilement</string>
     <string name="title_widget_picker">Boutons affichés</string>
@@ -619,7 +632,7 @@
 
     <!-- General UI | Keyboard -->
     <string name="keyboard_custom">Clavier</string>
-    <string name="fullscreen_keyboard_title">Désactiver le clavier plein écran</string>
+    <string name="fullscreen_keyboard">Désactiver le clavier plein écran</string>
     <string name="fullscreen_keyboard_summary">Clavier au format paysage ne prendra jamais la totalité de l\'écran</string>
     <string name="keyboard_rotation_toggle_title">Rotation automatique du clavier</string>
     <string name="keyboard_rotation_toggle_summary">Forcer la rotation automatique quand le clavier est affiché</string>
