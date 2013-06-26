@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">常规设置</string>
+    <string name="app_name">多功能设置</string>
 
     <!-- Header Strings -->
     <string name="user_interface">界面设置</string>
@@ -64,16 +64,16 @@
 
     <!-- Menu Strings -->
     <string name="menu_main_activity_change_locale">区域设置</string>
-    <string name="menu_nav_bar_reset">Reset nav bar</string>
-    <string name="menu_ribbon_reset">Reset ribbon</string>
-    <string name="menu_ribbon_apps">Reset apps</string>
-    <string name="menu_ribbon_rearrange">Rearrange ribbon</string>
-    <string name="menu_ribbon_hide">Hide apps</string>
-    <string name="menu_ribbon_toggles">Setup toggles</string>
-    <string name="menu_ribbon_na">Not available</string>
-    <string name="menu_ribbon_toggles_error">Toggles are only available for the left and right swipe ribbons.</string>
-    <string name="menu_user_interface_reset">Reset notification wallpaper</string>
-    <string name="menu_lockscreens_reset">Reset lockscreen wallpaper</string>
+    <string name="menu_nav_bar_reset">重置导航栏</string>
+    <string name="menu_ribbon_reset">重置操作区</string>
+    <string name="menu_ribbon_apps">重置应用程序</string>
+    <string name="menu_ribbon_rearrange">重新排列操作区</string>
+    <string name="menu_ribbon_hide">隐藏应用程序</string>
+    <string name="menu_ribbon_toggles">设置开关</string>
+    <string name="menu_ribbon_na">无效操作</string>
+    <string name="menu_ribbon_toggles_error">操作区的开关只供向左或向右滑动</string>
+    <string name="menu_user_interface_reset">重置通知壁纸</string>
+    <string name="menu_lockscreens_reset">复位锁屏壁纸</string>
 
     <!-- General Strings -->
     <string name="advanced_settings">高级设置</string>
@@ -115,6 +115,7 @@
     <string name="title_show_torch_toggle">手电筒</string>
     <string name="power_menu_expanded_desktop">显示全屏开关</string>
     <string name="expanded_desktop_cat">高级设置</string>
+    <string name="summary_expanded_desktop">%1$s</string>
     <string name="expanded_desktop_summary_status_bar">状态栏可见</string>
     <string name="expanded_desktop_summary_no_status_bar">状态栏隐藏</string>
     <string name="expanded_desktop_disabled">关闭</string>
@@ -129,9 +130,10 @@
     <string name="status_bar_clock_header">时钟</string>
     <string name="status_bar_battery_header">电池</string>
     <string name="status_bar_signal_header">信号</string>
-    <string name="status_bar_misc">杂项</string>
+    <string name="status_bar_misc">其它</string>
 
     <!-- Status Bar -->
+    <string name="status_bar_clock_enable_title">启用时钟</string>
     <string name="status_bar_clock_title">时钟样式</string>
     <string name="status_bar_general_title">常规</string>
     <string name="clock_title_enable">时钟样式</string>
@@ -171,8 +173,7 @@
     <string name="uppercase">大写</string>
 
     <!-- Quick/Pie Control -->
-    <string name="pie_control_title">SlimPIE</string>
-    <string name="pie_control_dialog_title">SlimPIE</string>
+    <string name="pie_control_title">启用PIE</string>
     <string name="pie_control_always">总是显示</string>
     <string name="pie_control_expanded">扩展模式</string>
     <string name="pie_control_disabled">禁用</string>
@@ -275,6 +276,15 @@
     <string name="halo_style_title">HALO极简风格</string>
     <string name="halo_style_summary">HALO设置时的不同风格</string>
 
+    <string name="halo_blue">蓝色（默认）</string>
+    <string name="halo_green">绿色</string>
+    <string name="halo_white">白色</string>
+    <string name="halo_purple">紫色</string>
+    <string name="halo_red">红色</string>
+    <string name="halo_pink">粉红</string>
+    <string name="halo_yellow">黄色</string>
+    <string name="halo_black">黑色</string>
+
     <!-- Battery style -->
     <string name="battery_icon_title">电量样式</string>
     <string name="icon_only">图标</string>
@@ -356,6 +366,8 @@
     <string name="toggle_text_color_title">开关文字颜色</string>
     <string name="toggle_favcontact_title">收藏联系人</string>
     <string name="toggle_favcontact_summary">选择你收藏的联系人</string>
+    <string name="toggle_collapse_generic_title">单击切换开关阴影</string>
+    <string name="toggle_collapse_generic_summary">关闭所有通用的切换动作的阴影</string>
     <string name="toggle_enable_fasttoggle_title">启用快捷开关</string>
     <string name="toggle_enable_fasttoggle_summary">覆盖默认动作</string>
     <string name="toggle_choose_fasttoggle_side_title">选择快捷开关侧边</string>
@@ -639,6 +651,7 @@
     <string name="title_navring_amount">导航圈目标数量</string>
     <string name="summary_navring_amount">选择导航圈的目标数目</string>
     <string name="interface_navring_settings_title">导航圈</string>
+    <string name="interface_navring_settings_summary">@null</string>
     <string name="navring_target_info">手指拖动到目标分配操作</string>
     <string name="navring_clear">清除操作</string>
     <string name="navring_short">短按操作</string>
@@ -741,8 +754,9 @@
     
    <!-- Ribbon -->
     <string name="ribbon_dialog_arrange_title">布局</string>
+    <string name="ribbon_chooser_instructions">选择操作区设置。</string>
     <string name="ribbon_instructions">点击图示新增或删除动作</string>
-    <string name="ribbon_targets_cat">彩带捷径条设定</string>
+    <string name="ribbon_targets_cat">操作区条设定</string>
     <string name="enable_ribbon_text_title">显示捷径名称</string>
     <string name="enable_ribbon_vibrate_title">触发区振动回馈</string>
     <string name="enable_ribbon_text_summary">图示下方显示捷径名称</string>
@@ -811,6 +825,7 @@
     <string name="led_keep_app">保留</string>
     <string name="led_custom_title">自定义LED应用</string>
     <string name="led_custom_message">你想改变的应用程序：</string>
+    <string name="led_edit_button">-</string>
     <string name="led_test_notification">测试LED</string>
     <string name="led_test_notification_message_now">现在测试LED:</string>
     <string name="led_test_notification_message_note">请关闭您的屏幕上看LED，直到你查看LED颜色结束前不要点击弹出窗口的”确定“</string>
