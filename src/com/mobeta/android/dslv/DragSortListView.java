@@ -43,7 +43,7 @@ import android.widget.HeaderViewListAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import com.xylon.settings.R;
+import com.crystal.settings.R;
 
 import java.io.File;
 import java.io.FileWriter;

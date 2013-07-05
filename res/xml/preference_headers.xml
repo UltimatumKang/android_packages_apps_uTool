@@ -5,42 +5,42 @@
 
      <header
         android:id="@+id/general_ui"
-        android:fragment="com.xylon.settings.fragments.GeneralUI"
+        android:fragment="com.crystal.settings.fragments.GeneralUI"
         android:title="@string/general_ui"
         android:icon="@drawable/ic_xy_settings_general_ui"
         android:summary="@string/header_summary" />
 
      <header
         android:id="@+id/lock_screen"
-        android:fragment="com.xylon.settings.fragments.Lockscreen"
+        android:fragment="com.crystal.settings.fragments.Lockscreen"
         android:title="@string/lockscreen"
         android:icon="@drawable/ic_xy_settings_lockscreen"
         android:summary="@string/header_summary" />
 
      <header
         android:id="@+id/navigation_bar"
-        android:fragment="com.xylon.settings.fragments.NavigationBar"
+        android:fragment="com.crystal.settings.fragments.NavigationBar"
         android:title="@string/navigation_bar"
         android:icon="@drawable/ic_xy_settings_navigation_bar"
         android:summary="@string/header_summary" />
 
      <header
         android:id="@+id/nav_ring"
-        android:fragment="com.xylon.settings.fragments.NavRingTargets"
+        android:fragment="com.crystal.settings.fragments.NavRingTargets"
         android:icon="@drawable/ic_xy_settings_navigation_ring"
         android:title="@string/interface_navring_settings_title"
         android:summary="@string/header_summary" />
 
      <header
         android:id="@+id/pie"
-        android:fragment="com.xylon.settings.fragments.PieHeader"
+        android:fragment="com.crystal.settings.fragments.PieHeader"
         android:title="@string/pie"
         android:icon="@drawable/ic_xy_settings_pie"
         android:summary="@string/header_summary" />
 
      <header
         android:id="@+id/ribbon_targets"
-        android:fragment="com.xylon.settings.fragments.RibbonTargets"
+        android:fragment="com.crystal.settings.fragments.RibbonTargets"
         android:icon="@drawable/ic_xy_settings_ribbon"
         android:title="@string/ribbon_settings_title"
         android:summary="@string/header_summary" />
@@ -60,21 +60,21 @@
 
     <header
         android:id="@+id/statusbar_battery"
-        android:fragment="com.xylon.settings.fragments.StatusBarBattery"
+        android:fragment="com.crystal.settings.fragments.StatusBarBattery"
         android:title="@string/battery"
         android:icon="@drawable/ic_xy_settings_battery"
         android:summary="@string/header_summary" />
 
     <header
         android:id="@+id/statusbar_clock"
-        android:fragment="com.xylon.settings.fragments.StatusBarClock"
+        android:fragment="com.crystal.settings.fragments.StatusBarClock"
         android:title="@string/clock"
         android:icon="@drawable/ic_xy_settings_clock"
         android:summary="@string/header_summary" />
 
      <header
         android:id="@+id/statusbar_signal"
-        android:fragment="com.xylon.settings.fragments.StatusBarSignal"
+        android:fragment="com.crystal.settings.fragments.StatusBarSignal"
         android:title="@string/signal"
         android:icon="@drawable/ic_xy_settings_signal"
         android:summary="@string/header_summary" />
@@ -82,20 +82,20 @@
      <header
         android:id="@+id/quick_toggles"
         android:title="@string/quick_toggles"
-        android:fragment="com.xylon.settings.fragments.QuickToggles"
+        android:fragment="com.crystal.settings.fragments.QuickToggles"
         android:icon="@drawable/ic_xy_settings_quick_toggles"
         android:summary="@string/header_summary" />
 
      <header
         android:id="@+id/power_widget_settings"
-        android:fragment="com.xylon.settings.fragments.PowerWidget"
+        android:fragment="com.crystal.settings.fragments.PowerWidget"
         android:title="@string/power_widget"
         android:icon="@drawable/ic_xy_settings_power_widget"
         android:summary="@string/header_summary" />
 
     <header
         android:id="@+id/status_extras"
-        android:fragment="com.xylon.settings.fragments.StatusExtras"
+        android:fragment="com.crystal.settings.fragments.StatusExtras"
         android:title="@string/status_extras"
         android:icon="@drawable/ic_xy_settings_status_extras"
         android:summary="@string/header_summary" />
@@ -106,28 +106,28 @@
 
      <header
         android:id="@+id/hybrid"
-        android:fragment="com.xylon.settings.beerbong.HybridSettings"
+        android:fragment="com.crystal.settings.beerbong.HybridSettings"
         android:title="@string/title_hybridsettings"
         android:icon="@drawable/ic_xy_settings_jellybeer"
         android:summary="@string/header_summary" />
 
      <header
         android:id="@+id/led"
-        android:fragment="com.xylon.settings.fragments.LEDControl"
+        android:fragment="com.crystal.settings.fragments.LEDControl"
         android:title="@string/led_options"
         android:icon="@drawable/ic_xy_settings_led"
         android:summary="@string/header_summary" />
 
      <header
         android:id="@+id/power_menu"
-        android:fragment="com.xylon.settings.fragments.PowerMenu"
+        android:fragment="com.crystal.settings.fragments.PowerMenu"
         android:title="@string/power_menu"
         android:icon="@drawable/ic_xy_settings_power_menu"
         android:summary="@string/header_summary" />
 
     <header
         android:id="@+id/spen"
-        android:fragment="com.xylon.settings.fragments.SPenGestures"
+        android:fragment="com.crystal.settings.fragments.SPenGestures"
         android:title="@string/spen_options"
         android:icon="@drawable/ic_xy_settings_spen"
         android:summary="@string/header_summary" />

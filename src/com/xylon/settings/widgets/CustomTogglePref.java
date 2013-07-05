@@ -1,4 +1,4 @@
-package com.xylon.settings.widgets;
+package com.crystal.settings.widgets;
 
 import android.content.Context;
 import android.preference.Preference;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.xylon.settings.fragments.QuickToggles;
-import com.xylon.settings.R;
+import com.crystal.settings.fragments.QuickToggles;
+import com.crystal.settings.R;
 
 public class CustomTogglePref extends Preference {
 

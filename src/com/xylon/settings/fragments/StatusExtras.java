@@ -1,5 +1,5 @@
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -55,11 +55,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URISyntaxException;
 
-import com.xylon.settings.R;
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.util.Helpers;
-import com.xylon.settings.widgets.AlphaSeekBar;
-import com.xylon.settings.widgets.SeekBarPreference;
+import com.crystal.settings.R;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.util.Helpers;
+import com.crystal.settings.widgets.AlphaSeekBar;
+import com.crystal.settings.widgets.SeekBarPreference;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
@@ -298,7 +298,7 @@ public class StatusExtras extends SettingsPreferenceFragment implements OnPrefer
                             Settings.System.CUSTOM_CARRIER_LABEL, value);
                     updateCustomLabelTextSummary();
                     Intent i = new Intent();
-                    i.setAction("com.xylon.settings.LABEL_CHANGED");
+                    i.setAction("com.crystal.settings.LABEL_CHANGED");
                     mContext.sendBroadcast(i);
                 }
             });

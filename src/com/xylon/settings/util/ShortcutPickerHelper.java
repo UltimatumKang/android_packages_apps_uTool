@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.util;
+package com.crystal.settings.util;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 
@@ -31,7 +31,7 @@ import android.os.Bundle;
 import android.os.Parcelable;
 import android.util.Log;
 
-import com.xylon.settings.R;
+import com.crystal.settings.R;
 public class ShortcutPickerHelper {
 
     private Fragment mParent;

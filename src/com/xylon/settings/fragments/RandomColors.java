@@ -1,5 +1,5 @@
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import android.os.Bundle;
 import android.preference.Preference;
@@ -8,8 +8,8 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
 
-import com.xylon.settings.R;
-import com.xylon.settings.SettingsPreferenceFragment;
+import com.crystal.settings.R;
+import com.crystal.settings.SettingsPreferenceFragment;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 

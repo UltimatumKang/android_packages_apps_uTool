@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -49,11 +49,11 @@ import static com.android.internal.util.aokp.AwesomeConstants.*;
 import com.android.internal.util.aokp.NavRingHelpers;
 import com.android.internal.widget.multiwaveview.GlowPadView;
 import com.android.internal.widget.multiwaveview.TargetDrawable;
-import com.xylon.settings.util.ShortcutPickerHelper;
-import com.xylon.settings.R;
-import com.xylon.settings.util.Helpers;
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.XYSettingsActivity;
+import com.crystal.settings.util.ShortcutPickerHelper;
+import com.crystal.settings.R;
+import com.crystal.settings.util.Helpers;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.XYSettingsActivity;
 
 import java.util.ArrayList;
 import java.io.File;

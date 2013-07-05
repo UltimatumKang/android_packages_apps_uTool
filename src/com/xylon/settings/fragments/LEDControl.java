@@ -1,7 +1,7 @@
 
 // AOKP's LED Control : A shameless kang evar //
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -48,12 +48,12 @@ import android.widget.NumberPicker.OnValueChangeListener;
 import android.widget.Spinner;
 import android.widget.Switch;
 
-import com.xylon.settings.R;
+import com.crystal.settings.R;
 
 import net.margaritov.preference.colorpicker.ColorPickerDialog;
 
-import com.xylon.settings.util.Helpers;
-import com.xylon.settings.util.ShortcutPickerHelper;
+import com.crystal.settings.util.Helpers;
+import com.crystal.settings.util.ShortcutPickerHelper;
 
 import java.net.URISyntaxException;
 import java.text.DecimalFormat;

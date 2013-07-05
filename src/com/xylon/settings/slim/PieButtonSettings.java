@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.slim;
+package com.crystal.settings.slim;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -58,10 +58,10 @@ import android.widget.Toast;
 
 import java.net.URISyntaxException;
 
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.R;
-import com.xylon.settings.util.ShortcutPickerHelper;
-import com.xylon.settings.widgets.NavBarItemPreference;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.R;
+import com.crystal.settings.util.ShortcutPickerHelper;
+import com.crystal.settings.widgets.NavBarItemPreference;
 
 public class PieButtonSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener, ShortcutPickerHelper.OnPickListener {

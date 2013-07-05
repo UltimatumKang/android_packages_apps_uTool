@@ -1,5 +1,5 @@
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import android.app.Activity;
 import android.app.DialogFragment;
@@ -27,7 +27,7 @@ import android.widget.TextView;
 import android.widget.LinearLayout.LayoutParams;
 
 
-import com.xylon.settings.R;
+import com.crystal.settings.R;
 
 import java.util.ArrayList;
 

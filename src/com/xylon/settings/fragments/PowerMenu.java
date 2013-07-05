@@ -1,4 +1,4 @@
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.res.Resources;
@@ -11,9 +11,9 @@ import android.preference.SwitchPreference;
 import android.provider.Settings;
 import android.provider.Settings.SettingNotFoundException;
 
-import com.xylon.settings.R;
-import com.xylon.settings.R.xml;
-import com.xylon.settings.SettingsPreferenceFragment;
+import com.crystal.settings.R;
+import com.crystal.settings.R.xml;
+import com.crystal.settings.SettingsPreferenceFragment;
 
 public class PowerMenu extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 

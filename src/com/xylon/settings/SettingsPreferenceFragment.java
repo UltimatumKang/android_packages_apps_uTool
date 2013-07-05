@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings;
+package com.crystal.settings;
 
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -36,7 +36,7 @@ import android.util.Log;
 import android.telephony.TelephonyManager;
 import android.widget.Button;
 
-import com.xylon.settings.R;
+import com.crystal.settings.R;
 
 /**
  * Base class for Settings fragments, with some helper functions and dialog management

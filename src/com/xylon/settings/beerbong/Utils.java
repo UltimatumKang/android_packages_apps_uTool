@@ -1,4 +1,4 @@
-package com.xylon.settings.beerbong;
+package com.crystal.settings.beerbong;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -19,7 +19,7 @@ import android.content.DialogInterface;
 import android.os.PowerManager;
 import android.provider.Settings;
 
-import com.xylon.settings.R;
+import com.crystal.settings.R;
 
 public class Utils {
 

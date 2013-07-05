@@ -1,4 +1,4 @@
-package com.xylon.settings.beerbong;
+package com.crystal.settings.beerbong;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 
-import com.xylon.settings.R;
-import com.xylon.settings.SettingsPreferenceFragment;
+import com.crystal.settings.R;
+import com.crystal.settings.SettingsPreferenceFragment;
 
 public class AppListPreference extends SettingsPreferenceFragment {
 

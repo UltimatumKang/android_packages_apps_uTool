@@ -39,7 +39,7 @@
             android:text="@string/transparency_dialog_transparency"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
-        <com.xylon.settings.widgets.AlphaSeekBar
+        <com.crystal.settings.widgets.AlphaSeekBar
             android:id="@+id/statusbar_alpha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
             android:text="@string/transparency_dialog_transparency_keyguard"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
-        <com.xylon.settings.widgets.AlphaSeekBar
+        <com.crystal.settings.widgets.AlphaSeekBar
             android:id="@+id/statusbar_keyguard_alpha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
                 android:text="@string/transparency_dialog_transparency"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
-            <com.xylon.settings.widgets.AlphaSeekBar
+            <com.crystal.settings.widgets.AlphaSeekBar
                 android:id="@+id/navbar_alpha"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -110,7 +110,7 @@
                 android:text="@string/transparency_dialog_transparency_keyguard"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
-            <com.xylon.settings.widgets.AlphaSeekBar
+            <com.crystal.settings.widgets.AlphaSeekBar
                 android:id="@+id/navbar_keyguard_alpha"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

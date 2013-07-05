@@ -1,5 +1,5 @@
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import android.app.DialogFragment;
 import android.app.Fragment;
@@ -18,9 +18,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.xylon.settings.R;
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.util.Helpers;
+import com.crystal.settings.R;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.util.Helpers;
 
 public class PieHeader extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 

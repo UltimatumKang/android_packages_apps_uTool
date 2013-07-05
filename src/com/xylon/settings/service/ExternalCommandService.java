@@ -1,7 +1,7 @@
 
-package com.xylon.settings.service;
+package com.crystal.settings.service;
 
-import com.xylon.settings.util.CMDProcessor;
+import com.crystal.settings.util.CMDProcessor;
 
 import android.app.IntentService;
 import android.content.Intent;

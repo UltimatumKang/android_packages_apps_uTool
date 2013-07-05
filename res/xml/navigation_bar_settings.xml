@@ -49,11 +49,11 @@
             android:title="@string/navbar_width_help_title"
             android:summary="@string/navbar_width_help_summary" />
 
-        <com.xylon.settings.widgets.SeekBarPreference
+        <com.crystal.settings.widgets.SeekBarPreference
             android:key="width_port"
             android:title="@string/width_port_title" />
 
-        <com.xylon.settings.widgets.SeekBarPreference
+        <com.crystal.settings.widgets.SeekBarPreference
             android:key="width_land"
             android:title="@string/width_land_title" />
 
@@ -73,7 +73,7 @@
                 android:title="@string/navigation_bar_tint_title"
                 android:defaultValue="0xffffffff" />
 
-        <com.xylon.settings.widgets.SeekBarPreference
+        <com.crystal.settings.widgets.SeekBarPreference
                 android:key="button_transparency"
                 android:title="@string/button_transparency_title" />
 
@@ -98,12 +98,12 @@
                 android:key="navbar_hide_enable"
                 android:title="@string/navbar_hide_enable_title" />
 
-        <com.xylon.settings.widgets.SeekBarPreference
+        <com.crystal.settings.widgets.SeekBarPreference
                 android:key="drag_handle_opacity"
                 android:title="@string/drag_handle_opacity_title"
                 android:dependency="navbar_hide_enable" />
 
-        <com.xylon.settings.widgets.SeekBarPreference
+        <com.crystal.settings.widgets.SeekBarPreference
                 android:key="drag_handle_width"
                 android:title="@string/drag_handle_width_title"
                 android:dependency="navbar_hide_enable" />

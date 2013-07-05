@@ -4,7 +4,7 @@
     <PreferenceScreen
         android:key="pie_color"
         android:title="@string/pie_color_title"
-        android:fragment="com.xylon.settings.paranoid.PieColor" />
+        android:fragment="com.crystal.settings.paranoid.PieColor" />
 
     <PreferenceCategory
         android:key="toolbar_pie_controls"
@@ -66,7 +66,7 @@
             android:summary="@string/pie_center_summary"
             android:dependency="pie_controls" />
 
-        <com.xylon.settings.widgets.SeekBarPreference
+        <com.crystal.settings.widgets.SeekBarPreference
              android:key="pie_size"
              android:title="@string/pie_control_size"
              android:dependency="pie_controls" />

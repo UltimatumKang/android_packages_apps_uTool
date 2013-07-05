@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.slim;
+package com.crystal.settings.slim;
 
 import android.content.ContentResolver;
 import android.database.ContentObserver;
@@ -27,8 +27,8 @@ import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
 import android.provider.Settings;
 
-import com.xylon.settings.R;
-import com.xylon.settings.SettingsPreferenceFragment;
+import com.crystal.settings.R;
+import com.crystal.settings.SettingsPreferenceFragment;
 
 public class PieControl extends SettingsPreferenceFragment
                         implements Preference.OnPreferenceChangeListener {

@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.xylon.settings" >
+    package="com.crystal.settings" >
 
     <uses-sdk android:minSdkVersion="17"/>
-    <original-package android:name="com.xylon.settings" />
+    <original-package android:name="com.crystal.settings" />
 
     <uses-permission android:name="android.permission.REBOOT" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -32,7 +32,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
             </intent-filter>
         </activity>
   
@@ -42,7 +42,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
             </intent-filter>
         </activity>
           <activity
@@ -51,7 +51,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -60,7 +60,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -69,7 +69,7 @@
 	    <intent-filter>
 	        <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
 	    </intent-filter>
 	</activity>
         <activity
@@ -78,7 +78,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
               </intent-filter>
         </activity>
 	<activity
@@ -87,7 +87,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
             </intent-filter>
         </activity>
 	<activity
@@ -96,7 +96,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
             </intent-filter>
         </activity>
 	<activity
@@ -105,7 +105,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -114,7 +114,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -123,7 +123,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
               </intent-filter>
         </activity>
         <activity
@@ -132,7 +132,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
               </intent-filter>
         </activity>
         <activity
@@ -141,7 +141,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
               </intent-filter>
         </activity>
         <activity
@@ -150,7 +150,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
               </intent-filter>
         </activity>
         <activity
@@ -160,7 +160,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -169,7 +169,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -178,7 +178,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -187,7 +187,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
               </intent-filter>
         </activity>
         <activity
@@ -196,7 +196,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
               </intent-filter>
         </activity>
         <activity
@@ -205,7 +205,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
               </intent-filter>
         </activity>
         <activity
@@ -215,7 +215,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
               </intent-filter>
         </activity>
         <activity
@@ -224,7 +224,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.xylon.settings.SHORTCUT" />
+                <category android:name="com.crystal.settings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity android:name=".activities.RamBar" />
@@ -253,7 +253,7 @@
         <receiver
             android:name=".service.ChangeFastChargeStateReceiver" >
             <intent-filter>
-                <action android:name="com.xylon.settings.ACTION_CHANGE_FCHARGE_STATE" />
+                <action android:name="com.crystal.settings.ACTION_CHANGE_FCHARGE_STATE" />
             </intent-filter>
         </receiver>
         <service android:name=".service.ExternalCommandService"

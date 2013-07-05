@@ -1,4 +1,4 @@
-package com.xylon.settings;
+package com.crystal.settings;
 
 import android.app.Activity;
 import android.content.ClipData;
@@ -7,7 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.xylon.settings.R;
+import com.crystal.settings.R;
 
 public class ShareToClipboard extends Activity {
     @Override

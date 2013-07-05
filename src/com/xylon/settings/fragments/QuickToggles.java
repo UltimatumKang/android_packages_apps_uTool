@@ -1,5 +1,5 @@
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -56,13 +56,13 @@ import android.widget.Toast;
 import com.android.internal.util.aokp.AwesomeConstants;
 import com.android.internal.util.aokp.AwesomeConstants.AwesomeConstant;
 import com.android.internal.util.aokp.NavBarHelpers;
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.R;
-import com.xylon.settings.objects.EasyPair;
-import com.xylon.settings.util.Helpers;
-import com.xylon.settings.util.ShortcutPickerHelper;
-import com.xylon.settings.util.Helpers;
-import com.xylon.settings.widgets.CustomTogglePref;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.R;
+import com.crystal.settings.objects.EasyPair;
+import com.crystal.settings.util.Helpers;
+import com.crystal.settings.util.ShortcutPickerHelper;
+import com.crystal.settings.util.Helpers;
+import com.crystal.settings.widgets.CustomTogglePref;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,5 +1,5 @@
 
-package com.xylon.settings.paranoid;
+package com.crystal.settings.paranoid;
 
 import android.app.Activity;
 import android.content.res.Resources;
@@ -15,10 +15,10 @@ import android.util.Log;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 
-import com.xylon.settings.R;
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.Utils;
-import com.xylon.settings.util.Helpers;
+import com.crystal.settings.R;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.Utils;
+import com.crystal.settings.util.Helpers;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 

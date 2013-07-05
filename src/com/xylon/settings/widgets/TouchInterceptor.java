@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.widgets;
+package com.crystal.settings.widgets;
 
-import com.xylon.settings.R;
+import com.crystal.settings.R;
 
 import android.content.Context;
 import android.content.res.Resources;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings;
+package com.crystal.settings;
 
 import android.app.LauncherActivity;
 import android.content.Intent;
@@ -26,7 +26,7 @@ public class CreateShortcut extends LauncherActivity {
     @Override
     protected Intent getTargetIntent() {
         Intent targetIntent = new Intent(Intent.ACTION_MAIN, null);
-        targetIntent.addCategory("com.xylon.settings.SHORTCUT");
+        targetIntent.addCategory("com.crystal.settings.SHORTCUT");
         targetIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         return targetIntent;
     }
@@ -39,7 +39,7 @@ public class CreateShortcut extends LauncherActivity {
 
         shortcutIntent = new Intent();
         shortcutIntent.setClass(getApplicationContext(), XYSettingsActivity.class);
-        shortcutIntent.setAction("com.xylon.settings.START_NEW_FRAGMENT");
+        shortcutIntent.setAction("com.crystal.settings.START_NEW_FRAGMENT");
         shortcutIntent.putExtra("xylon_fragment_name", intentClass);
         shortcutIntent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
         shortcutIntent.setFlags(Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED);

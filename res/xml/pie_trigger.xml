@@ -52,11 +52,11 @@
             android:title="@string/pie_trigger_gravity_left_right_title"
             android:dialogTitle="@string/pie_trigger_gravity_left_right_dialog_title" />
 
-        <com.xylon.settings.widgets.SeekBarPreference
+        <com.crystal.settings.widgets.SeekBarPreference
             android:key="pie_trigger_height"
             android:title="@string/pie_trigger_height_title" />
 
-        <com.xylon.settings.widgets.SeekBarPreference
+        <com.crystal.settings.widgets.SeekBarPreference
             android:key="pie_trigger_thickness"
             android:title="@string/pie_trigger_thickness_title" />
 

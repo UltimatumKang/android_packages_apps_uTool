@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import com.android.internal.telephony.PhoneConstants;
-import com.xylon.settings.R;
+import com.crystal.settings.R;
 
 import android.content.Context;
 import android.net.wimax.WimaxHelper;

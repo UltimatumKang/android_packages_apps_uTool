@@ -72,7 +72,7 @@
 
         <PreferenceScreen
             android:key="recents_ram_bar"
-            android:fragment="com.xylon.settings.activities.RamBar"
+            android:fragment="com.crystal.settings.activities.RamBar"
             android:title="@string/ram_bar" />
 
         <CheckBoxPreference

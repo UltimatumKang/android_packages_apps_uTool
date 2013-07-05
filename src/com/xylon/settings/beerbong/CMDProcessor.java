@@ -1,4 +1,4 @@
-package com.xylon.settings.beerbong;
+package com.crystal.settings.beerbong;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

@@ -1,5 +1,5 @@
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import android.app.AlertDialog;
 import android.app.DialogFragment;
@@ -30,9 +30,9 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 import com.android.internal.util.aokp.NavBarHelpers;
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.R;
-import com.xylon.settings.XYSettingsActivity;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.R;
+import com.crystal.settings.XYSettingsActivity;
 import com.google.android.apps.dashclock.ui.SwipeDismissListViewTouchListener;
 import com.mobeta.android.dslv.DragSortController;
 import com.mobeta.android.dslv.DragSortListView;

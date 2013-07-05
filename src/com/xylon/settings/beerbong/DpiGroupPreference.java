@@ -1,4 +1,4 @@
-package com.xylon.settings.beerbong;
+package com.crystal.settings.beerbong;
 
 import android.app.AlertDialog;
 import android.app.FragmentTransaction;
@@ -11,7 +11,7 @@ import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
 import android.view.ViewGroup;
 
-import com.xylon.settings.R;
+import com.crystal.settings.R;
 
 public class DpiGroupPreference extends Preference {
 

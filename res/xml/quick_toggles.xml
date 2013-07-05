@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
-    xmlns:aokp="http://schemas.android.com/apk/res/com.xylon.settings">
+    xmlns:aokp="http://schemas.android.com/apk/res/com.crystal.settings">
 
     <Preference
         android:key="toggles"
@@ -117,7 +117,7 @@
         android:key="custom_buttons"
         android:title="@string/custom_button_cat">
 
-        <com.xylon.settings.widgets.CustomTogglePref
+        <com.crystal.settings.widgets.CustomTogglePref
             android:key="custom_toggle_pref" />
 
     </PreferenceCategory>

@@ -1,4 +1,4 @@
-package com.xylon.settings.beerbong;
+package com.crystal.settings.beerbong;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -23,8 +23,8 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.util.ExtendedPropertiesUtils;
 
-import com.xylon.settings.R;
-import com.xylon.settings.SettingsPreferenceFragment;
+import com.crystal.settings.R;
+import com.crystal.settings.SettingsPreferenceFragment;
 
 public class PerAppLayout extends SettingsPreferenceFragment {
 

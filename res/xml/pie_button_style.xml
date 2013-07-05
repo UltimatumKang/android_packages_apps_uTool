@@ -25,7 +25,7 @@
              android:title="@string/pie_button_color_title"
              android:defaultValue="0xff0099cc" />
 
-        <com.xylon.settings.widgets.SeekBarPreference
+        <com.crystal.settings.widgets.SeekBarPreference
              android:key="pie_button_alpha"
              android:title="@string/pie_button_alpha_title" />
 
@@ -44,7 +44,7 @@
              android:title="@string/pie_button_long_pressed_color_title"
              android:defaultValue="0xff8ad5f0" />
 
-        <com.xylon.settings.widgets.SeekBarPreference
+        <com.crystal.settings.widgets.SeekBarPreference
              android:key="pie_button_pressed_alpha"
              android:title="@string/pie_button_pressed_alpha_title" />
 

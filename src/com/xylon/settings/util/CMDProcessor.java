@@ -1,5 +1,5 @@
 
-package com.xylon.settings.util;
+package com.crystal.settings.util;
 
 import android.util.Log;
 
@@ -7,7 +7,7 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.InputStream;
 
-import com.xylon.settings.objects.EasyPair;
+import com.crystal.settings.objects.EasyPair;
 
 public class CMDProcessor {
 

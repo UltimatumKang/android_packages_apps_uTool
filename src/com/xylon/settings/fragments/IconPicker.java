@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -41,7 +41,7 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.xylon.settings.R;
+import com.crystal.settings.R;
 
 public class IconPicker {
 

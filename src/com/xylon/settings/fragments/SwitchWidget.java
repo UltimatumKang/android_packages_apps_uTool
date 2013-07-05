@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

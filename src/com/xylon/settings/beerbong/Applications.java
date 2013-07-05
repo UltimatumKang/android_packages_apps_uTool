@@ -1,4 +1,4 @@
-package com.xylon.settings.beerbong;
+package com.crystal.settings.beerbong;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -20,7 +20,7 @@ import android.os.UserHandle;
 import android.util.ExtendedPropertiesUtils;
 import android.widget.Toast;
 
-import com.xylon.settings.R;
+import com.crystal.settings.R;
 
 public class Applications {
 
@@ -46,7 +46,7 @@ public class Applications {
     }
 
     private static final String CONF_FILE = "/system/etc/beerbong/properties.conf";
-    private static final String BACKUP = "/data/data/com.xylon.settings/files/properties.back";
+    private static final String BACKUP = "/data/data/com.crystal.settings/files/properties.back";
 
     private static final String APPEND_CMD = "echo \"%s=%s\" >> " + CONF_FILE;
     private static final String REPLACE_CMD = "busybox sed -i \"/%s/ c %<s=%s\" " + CONF_FILE;
@@ -220,7 +220,7 @@ public class Applications {
     }
 
     public static void backup(Context mContext) {
-        Utils.execute(new String[] { "cd /data/data/com.xylon.settings", "mkdir files",
+        Utils.execute(new String[] { "cd /data/data/com.crystal.settings", "mkdir files",
                 "chmod 777 files", "cp " + CONF_FILE + " " + BACKUP, "chmod 644 " + BACKUP }, 0);
         Toast.makeText(mContext, R.string.dpi_groups_backup_done, Toast.LENGTH_SHORT).show();
     }
