@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.activities;
+package com.crystal.settings.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -33,9 +33,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.xylon.settings.R;
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.Utils;
+import com.crystal.settings.R;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.Utils;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 import java.util.Date;

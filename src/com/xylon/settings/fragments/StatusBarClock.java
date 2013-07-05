@@ -1,5 +1,5 @@
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -21,10 +21,10 @@ import android.text.format.DateFormat;
 import android.util.Log;
 import android.widget.EditText;
 
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.R;
-import com.xylon.settings.util.ShortcutPickerHelper;
-import com.xylon.settings.util.Helpers;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.R;
+import com.crystal.settings.util.ShortcutPickerHelper;
+import com.crystal.settings.util.Helpers;
 
 import java.util.Date;
 

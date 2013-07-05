@@ -1,5 +1,5 @@
 
-package com.xylon.settings.util;
+package com.crystal.settings.util;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -21,7 +21,7 @@ import android.text.format.DateFormat;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.xylon.settings.util.CMDProcessor.CommandResult;
+import com.crystal.settings.util.CMDProcessor.CommandResult;
 
 public class Helpers {
 

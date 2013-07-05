@@ -3,7 +3,7 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android">
     
-    <com.xylon.settings.beerbong.CustomDpiGroupPreference
+    <com.crystal.settings.beerbong.CustomDpiGroupPreference
             android:key="customdpigroup"
             android:title="@string/customdpigroup"
             android:summary="@string/customdpigroup_summary"

@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.xylon.settings;
+package com.crystal.settings;
 
 import android.app.Activity;
 import android.app.ActivityManager;

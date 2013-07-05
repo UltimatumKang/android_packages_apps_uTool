@@ -7,7 +7,7 @@
 
         <PreferenceScreen
             android:key="add_app"
-            android:fragment="com.xylon.settings.beerbong.AppListPreference"
+            android:fragment="com.crystal.settings.beerbong.AppListPreference"
             android:title="@string/dpi_group_add_app" />
 
     </PreferenceCategory>

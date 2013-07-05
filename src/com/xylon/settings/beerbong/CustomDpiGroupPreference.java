@@ -1,4 +1,4 @@
-package com.xylon.settings.beerbong;
+package com.crystal.settings.beerbong;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,7 +12,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.xylon.settings.R;
+import com.crystal.settings.R;
 
 public class CustomDpiGroupPreference extends SeekBarDialogPreference implements SeekBar.OnSeekBarChangeListener {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import java.io.File;
 import java.io.IOException;
@@ -56,10 +56,10 @@ import android.widget.Toast;
 
 import com.android.internal.widget.multiwaveview.GlowPadView;
 import com.android.internal.widget.multiwaveview.TargetDrawable;
-import com.xylon.settings.R;
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.Utils;
-import com.xylon.settings.fragments.IconPicker.OnIconPickListener;
+import com.crystal.settings.R;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.Utils;
+import com.crystal.settings.fragments.IconPicker.OnIconPickListener;
 
 public class Targets extends SettingsPreferenceFragment implements ShortcutPickHelper.OnPickListener,
     GlowPadView.OnTriggerListener, OnIconPickListener {

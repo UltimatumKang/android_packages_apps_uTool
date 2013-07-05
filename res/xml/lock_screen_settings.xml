@@ -50,7 +50,7 @@
 
         <Preference
             android:key="lockscreen_targets"
-            android:fragment="com.xylon.settings.fragments.Targets"
+            android:fragment="com.crystal.settings.fragments.Targets"
             android:title="@string/lockscreen_target_title"
             android:summary="@string/lockscreen_target_summary" />
 

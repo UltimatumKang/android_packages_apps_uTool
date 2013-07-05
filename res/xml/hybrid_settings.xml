@@ -19,7 +19,7 @@
 
         <PreferenceScreen
             android:key="system_dpi"
-            android:fragment="com.xylon.settings.beerbong.DpiPreferences"
+            android:fragment="com.crystal.settings.beerbong.DpiPreferences"
             android:title="@string/system_dpi_title"
             android:summary="@string/system_dpi_summary" />
 
@@ -36,25 +36,25 @@
 
         <PreferenceScreen
             android:key="dpi_groups"
-            android:fragment="com.xylon.settings.beerbong.DpiGroups"
+            android:fragment="com.crystal.settings.beerbong.DpiGroups"
             android:title="@string/dpi_groups_title"
             android:summary="@string/dpi_groups_summary" />
 
         <PreferenceScreen
             android:key="per_app_layout"
-            android:fragment="com.xylon.settings.beerbong.PerAppLayout"
+            android:fragment="com.crystal.settings.beerbong.PerAppLayout"
             android:title="@string/per_app_layout_title"
             android:summary="@string/per_app_layout_summary" />
 
         <PreferenceScreen
             android:key="expand"
-            android:fragment="com.xylon.settings.beerbong.Expand"
+            android:fragment="com.crystal.settings.beerbong.Expand"
             android:title="@string/expanded_title"
             android:summary="@string/expanded_summary" />
 
         <PreferenceScreen
             android:key="widgets"
-            android:fragment="com.xylon.settings.beerbong.Widgets"
+            android:fragment="com.crystal.settings.beerbong.Widgets"
             android:title="@string/widgets_title"
             android:summary="@string/widgets_summary" />
 

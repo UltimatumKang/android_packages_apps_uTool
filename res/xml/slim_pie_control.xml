@@ -21,12 +21,12 @@
 
     <PreferenceScreen
         android:key="pie_style"
-        android:fragment="com.xylon.settings.slim.PieStyleSettings"
+        android:fragment="com.crystal.settings.slim.PieStyleSettings"
         android:title="@string/pie_style" />
 
     <PreferenceScreen
         android:key="pie_trigger"
-        android:fragment="com.xylon.settings.slim.PieTriggerSettings"
+        android:fragment="com.crystal.settings.slim.PieTriggerSettings"
         android:title="@string/pie_trigger" />
 
     <PreferenceCategory
@@ -34,7 +34,7 @@
 
         <PreferenceScreen
             android:key="pie_button"
-            android:fragment="com.xylon.settings.slim.PieButtonSettings"
+            android:fragment="com.crystal.settings.slim.PieButtonSettings"
             android:title="@string/pie_button" />
 
         <CheckBoxPreference
@@ -45,13 +45,13 @@
 
         <PreferenceScreen
             android:key="pie_button_second_layer"
-            android:fragment="com.xylon.settings.slim.PieButtonSecondLayerSettings"
+            android:fragment="com.crystal.settings.slim.PieButtonSecondLayerSettings"
             android:title="@string/pie_button_second_layer"
             android:dependency="pie_second_layer" />
 
         <PreferenceScreen
             android:key="pie_button_style"
-            android:fragment="com.xylon.settings.slim.PieButtonStyleSettings"
+            android:fragment="com.crystal.settings.slim.PieButtonStyleSettings"
             android:title="@string/pie_button_style" />
 
     </PreferenceCategory>

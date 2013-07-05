@@ -1,11 +1,11 @@
 
-package com.xylon.settings.util;
+package com.crystal.settings.util;
 
 import android.os.AsyncTask;
 
-import com.xylon.settings.objects.EasyPair;
-import com.xylon.settings.util.CMDProcessor;
-import com.xylon.settings.util.Helpers;
+import com.crystal.settings.objects.EasyPair;
+import com.crystal.settings.util.CMDProcessor;
+import com.crystal.settings.util.Helpers;
 
 /**
  * An abstract implentation of AsyncTask

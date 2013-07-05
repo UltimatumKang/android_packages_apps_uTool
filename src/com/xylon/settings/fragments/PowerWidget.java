@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -52,9 +52,9 @@ import android.widget.TextView;
 
 import com.android.internal.telephony.Phone;
 
-import com.xylon.settings.R;
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.widgets.TouchInterceptor;
+import com.crystal.settings.R;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.widgets.TouchInterceptor;
 
 public class PowerWidget extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {

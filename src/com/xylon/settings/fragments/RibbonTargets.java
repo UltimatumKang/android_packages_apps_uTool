@@ -1,4 +1,4 @@
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -76,12 +76,12 @@ import com.android.internal.util.aokp.AwesomeConstants;
 import com.android.internal.util.aokp.AwesomeAnimationHelper;
 import com.android.internal.util.aokp.NavBarHelpers;
 import com.android.internal.util.aokp.LockScreenHelpers;
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.R;
-import com.xylon.settings.XYSettingsActivity;
-import com.xylon.settings.util.Helpers;
-import com.xylon.settings.util.ShortcutPickerHelper;
-import com.xylon.settings.widgets.SeekBarPreference;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.R;
+import com.crystal.settings.XYSettingsActivity;
+import com.crystal.settings.util.Helpers;
+import com.crystal.settings.util.ShortcutPickerHelper;
+import com.crystal.settings.widgets.SeekBarPreference;
 import net.margaritov.preference.colorpicker.ColorPickerDialog;
 
 public class RibbonTargets extends SettingsPreferenceFragment implements
@@ -1853,7 +1853,7 @@ public class RibbonTargets extends SettingsPreferenceFragment implements
     }
 
     public class RibbonDialogReceiver extends BroadcastReceiver {
-        public static final String ACTION_RIBBON_DIALOG_DISMISS = "com.xylon.settings.ACTION_RIBBON_DIALOG_DISMISS";
+        public static final String ACTION_RIBBON_DIALOG_DISMISS = "com.crystal.settings.ACTION_RIBBON_DIALOG_DISMISS";
 
         @Override
         public void onReceive(Context context, Intent intent) {

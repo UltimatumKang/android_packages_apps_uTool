@@ -1,4 +1,4 @@
-package com.xylon.settings.widgets;
+package com.crystal.settings.widgets;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -11,7 +11,7 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
-import com.xylon.settings.R;
+import com.crystal.settings.R;
 
 import android.provider.Settings;
 

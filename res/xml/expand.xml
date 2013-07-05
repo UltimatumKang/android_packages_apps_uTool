@@ -9,7 +9,7 @@
 
         <PreferenceScreen
             android:key="add_expand"
-            android:fragment="com.xylon.settings.beerbong.ExpandListPreference"
+            android:fragment="com.crystal.settings.beerbong.ExpandListPreference"
             android:title="@string/add_expand" />
 
     </PreferenceCategory>

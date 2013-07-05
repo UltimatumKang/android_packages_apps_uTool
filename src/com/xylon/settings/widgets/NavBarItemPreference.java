@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.widgets;
+package com.crystal.settings.widgets;
 
 import android.content.Context;
 import android.preference.ListPreference;
@@ -24,7 +24,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.xylon.settings.R;
+import com.crystal.settings.R;
 
 public class NavBarItemPreference extends ListPreference {
 

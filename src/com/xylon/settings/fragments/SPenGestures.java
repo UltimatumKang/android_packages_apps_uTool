@@ -1,5 +1,5 @@
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import android.app.Activity;
 import android.content.ComponentName;
@@ -24,9 +24,9 @@ import java.net.URISyntaxException;
 
 
 import static com.android.internal.util.aokp.AwesomeConstants.*;
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.R;
-import com.xylon.settings.util.ShortcutPickerHelper;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.R;
+import com.crystal.settings.util.ShortcutPickerHelper;
 
 public class SPenGestures extends SettingsPreferenceFragment implements
         ShortcutPickerHelper.OnPickListener, OnPreferenceChangeListener {

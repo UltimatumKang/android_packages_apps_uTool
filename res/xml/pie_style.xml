@@ -25,7 +25,7 @@
              android:title="@string/pie_background_color_title"
              android:defaultValue="0xff000000" />
 
-        <com.xylon.settings.widgets.SeekBarPreference
+        <com.crystal.settings.widgets.SeekBarPreference
              android:key="pie_background_alpha"
              android:title="@string/pie_background_alpha_title" />
 
@@ -44,7 +44,7 @@
     <PreferenceCategory
         android:title="@string/pie_dimens_title">
 
-        <com.xylon.settings.widgets.SeekBarPreference
+        <com.crystal.settings.widgets.SeekBarPreference
              android:key="pie_control_size"
              android:title="@string/pie_control_size" />
 

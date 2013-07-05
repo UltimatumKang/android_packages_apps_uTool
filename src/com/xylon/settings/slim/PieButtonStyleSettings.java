@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.slim;
+package com.crystal.settings.slim;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -34,9 +34,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.R;
-import com.xylon.settings.widgets.SeekBarPreference;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.R;
+import com.crystal.settings.widgets.SeekBarPreference;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 

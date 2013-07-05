@@ -1,5 +1,5 @@
 
-package com.xylon.settings;
+package com.crystal.settings;
 /*
  * Copyright (C) 2010 The Android Open Source Project
  *

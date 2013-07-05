@@ -5,13 +5,13 @@
         android:key="slim_pie"
         android:title="@string/quick_launch_shortcuts_title"
         android:summary="@string/quick_launch_shortcuts_summary"
-        android:fragment="com.xylon.settings.slim.PieControl" />
+        android:fragment="com.crystal.settings.slim.PieControl" />
 
      <Preference
         android:key="paranoid_pie"
         android:title="@string/pie_title"
         android:summary="@string/pie_summary"
-        android:fragment="com.xylon.settings.paranoid.PieControl" />
+        android:fragment="com.crystal.settings.paranoid.PieControl" />
 
     <ListPreference
         android:key="pie_toggle_behavior"

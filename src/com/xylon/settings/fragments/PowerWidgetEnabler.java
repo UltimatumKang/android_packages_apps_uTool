@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import android.provider.Settings;
 import android.content.Context;
 import android.widget.CompoundButton;
 import android.widget.Switch;
 
-import com.xylon.settings.fragments.SwitchWidget;
+import com.crystal.settings.fragments.SwitchWidget;
 
 public class PowerWidgetEnabler extends SwitchWidget {
     public PowerWidgetEnabler(Context context, Switch switch_) {

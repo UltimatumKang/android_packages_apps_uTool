@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -40,8 +40,8 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
 
-import com.xylon.settings.R;
-import com.xylon.settings.fragments.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
+import com.crystal.settings.R;
+import com.crystal.settings.fragments.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
 
 public class ShortcutPickHelper {
 

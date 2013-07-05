@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import java.io.File;
 import java.io.IOException;
@@ -41,10 +41,10 @@ import android.view.Display;
 import android.view.Window;
 import android.widget.Toast;
 
-import com.xylon.settings.R;
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.Utils;
-import com.xylon.settings.widgets.SeekBarPreference;
+import com.crystal.settings.R;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.Utils;
+import com.crystal.settings.widgets.SeekBarPreference;
 
 import java.io.File;
 import java.io.IOException;

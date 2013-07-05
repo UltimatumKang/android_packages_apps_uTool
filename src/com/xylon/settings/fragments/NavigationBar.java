@@ -1,4 +1,4 @@
-package com.xylon.settings.fragments;
+package com.crystal.settings.fragments;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -69,12 +69,12 @@ import com.android.internal.util.aokp.AwesomeConstants.AwesomeConstant;
 import com.android.internal.util.aokp.BackgroundAlphaColorDrawable;
 import com.android.internal.util.aokp.NavBarHelpers;
 
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.R;
-import com.xylon.settings.beerbong.Applications;
-import com.xylon.settings.util.Helpers;
-import com.xylon.settings.util.ShortcutPickerHelper;
-import com.xylon.settings.widgets.SeekBarPreference;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.R;
+import com.crystal.settings.beerbong.Applications;
+import com.crystal.settings.util.Helpers;
+import com.crystal.settings.util.ShortcutPickerHelper;
+import com.crystal.settings.widgets.SeekBarPreference;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 

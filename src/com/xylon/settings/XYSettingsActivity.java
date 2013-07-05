@@ -1,4 +1,4 @@
-package com.xylon.settings;
+package com.crystal.settings;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -78,7 +78,7 @@ public class XYSettingsActivity extends PreferenceDrawerActivity implements Butt
             setTitle(R.string.app_name);
         }
 
-        if ("com.xylon.settings.START_NEW_FRAGMENT".equals(getIntent().getAction())) {
+        if ("com.crystal.settings.START_NEW_FRAGMENT".equals(getIntent().getAction())) {
             String className = getIntent().getStringExtra("xy_fragment_name").toString();
             Class<?> cls = null;
             try {

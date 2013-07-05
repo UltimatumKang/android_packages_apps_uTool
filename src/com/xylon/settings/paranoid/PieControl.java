@@ -1,5 +1,5 @@
 
-package com.xylon.settings.paranoid;
+package com.crystal.settings.paranoid;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -60,11 +60,11 @@ import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.xylon.settings.R;
-import com.xylon.settings.SettingsPreferenceFragment;
-import com.xylon.settings.Utils;
-import com.xylon.settings.util.Helpers;
-import com.xylon.settings.widgets.SeekBarPreference;
+import com.crystal.settings.R;
+import com.crystal.settings.SettingsPreferenceFragment;
+import com.crystal.settings.Utils;
+import com.crystal.settings.util.Helpers;
+import com.crystal.settings.widgets.SeekBarPreference;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 

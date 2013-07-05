@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.xylon.settings;
+package com.crystal.settings;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -41,8 +41,8 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.xylon.settings.R;
-import com.xylon.settings.SettingsPreferenceFragment;
+import com.crystal.settings.R;
+import com.crystal.settings.SettingsPreferenceFragment;
 
 import java.util.Collections;
 import java.util.LinkedList;
