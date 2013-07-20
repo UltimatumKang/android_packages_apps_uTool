@@ -115,7 +115,7 @@
     <string name="battery_bar_animate_summary">Lade-Animation kann zu einem langsameren System führen!</string>
 
     <!-- Statusbar | Signal -->
-    <string name="signal_style">Signal Teyt Stil</string>
+    <string name="signal_style">Signal Text Stil</string>
     <string name="signal_color_title">Signal Farbe</string>
     <string name="hide_signal_title">Verberge Signalleiste</string>
     <string name="hide_signal_summary">Updates when signal strength changes</string>
