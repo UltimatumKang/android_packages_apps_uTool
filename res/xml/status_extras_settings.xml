@@ -123,7 +123,8 @@
         <com.xylon.settings.widgets.SeekBarPreference
             android:key="halo_size"
             android:title="@string/halo_size_title"
-            android:summary="@string/halo_size_summary" />
+            android:summary="@string/halo_size_summary"
+            android:dependency="halo_enabled" />
 
         <CheckBoxPreference
             android:key="halo_colors"
