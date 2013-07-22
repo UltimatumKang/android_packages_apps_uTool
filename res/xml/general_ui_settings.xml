@@ -70,10 +70,10 @@
             android:summary="@string/wakeup_when_plugged_unplugged_summary"
             android:defaultValue="true" />
 
-        <PreferenceScreen
-            android:key="recents_ram_bar"
-            android:fragment="com.xylon.settings.activities.RamBar"
-            android:title="@string/ram_bar" />
+        <CheckBoxPreference
+            android:key="ram_usage_bar"
+            android:title="@string/ram_bar"
+            android:summary="@string/ram_bar_summary" />
 
         <CheckBoxPreference
             android:key="show_overflow"

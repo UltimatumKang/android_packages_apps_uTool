@@ -227,7 +227,6 @@
                 <category android:name="com.xylon.settings.SHORTCUT" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.RamBar" />
         <activity
  	    android:name=".ShareToClipboard"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"

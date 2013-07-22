@@ -81,7 +81,7 @@ public class GeneralUI extends SettingsPreferenceFragment implements OnPreferenc
     private static final String PREF_HARDWARE_KEYS = "hardware_keys";
     private static final String PREF_WAKEUP_WHEN_PLUGGED_UNPLUGGED = "wakeup_when_plugged_unplugged";
     private static final String PREF_FULLSCREEN_KEYBOARD = "fullscreen_keyboard";
-    private static final String PREF_RECENTS_RAM_BAR = "recents_ram_bar";
+    private static final String PREF_RAM_USAGE_BAR = "ram_usage_bar";
     private static final String PREF_HIDE_EXTRAS = "hide_extras";
     private static final String PREF_POWER_CRT_MODE = "system_power_crt_mode";
     private static final String PREF_POWER_CRT_SCREEN_OFF = "system_power_crt_screen_off";
@@ -90,16 +90,16 @@ public class GeneralUI extends SettingsPreferenceFragment implements OnPreferenc
 
     private static final int TIMEOUT_DEFAULT = 5000; // 5s
 
-    Preference mRamBar;
-    Preference mHardwareKeys;
-    CheckBoxPreference mShowActionOverflow;
-    CheckBoxPreference mHideExtras;
-    CheckBoxPreference mWakeUpWhenPluggedOrUnplugged;
-    CheckBoxPreference mFullscreenKeyboard;
     CheckBoxPreference mCrtOff;
-    ListPreference mCrtMode;
+    CheckBoxPreference mFullscreenKeyboard;
+    CheckBoxPreference mHideExtras;
     CheckBoxPreference mKeyboardRotationToggle;
+    CheckBoxPreference mRamBar;
+    CheckBoxPreference mShowActionOverflow;
+    CheckBoxPreference mWakeUpWhenPluggedOrUnplugged;
+    ListPreference mCrtMode;
     ListPreference mKeyboardRotationTimeout;
+    Preference mHardwareKeys;
 
     private boolean mIsCrtOffChecked = false;
 
@@ -114,7 +114,7 @@ public class GeneralUI extends SettingsPreferenceFragment implements OnPreferenc
         ContentResolver cr = mContext.getContentResolver();
 
         mShowActionOverflow = (CheckBoxPreference) findPreference(PREF_SHOW_OVERFLOW);
-        mShowActionOverflow.setChecked(Settings.System.getInt(cr,
+        mShowActionOverflow.setChecked(Settings.System.getInt(mContentRes,
                 Settings.System.UI_FORCE_OVERFLOW_BUTTON, 0) == 1);
 
         mHardwareKeys = (Preference) findPreference(PREF_HARDWARE_KEYS);
@@ -153,7 +153,7 @@ public class GeneralUI extends SettingsPreferenceFragment implements OnPreferenc
         }
         
         mFullscreenKeyboard = (CheckBoxPreference) findPreference(PREF_FULLSCREEN_KEYBOARD);
-        mFullscreenKeyboard.setChecked(Settings.System.getInt(cr,
+        mFullscreenKeyboard.setChecked(Settings.System.getInt(mContentRes,
                 Settings.System.FULLSCREEN_KEYBOARD, 0) == 1);
 
         mKeyboardRotationToggle = (CheckBoxPreference) findPreference(PREF_KEYBOARD_ROTATION_TOGGLE);
@@ -165,36 +165,15 @@ public class GeneralUI extends SettingsPreferenceFragment implements OnPreferenc
         updateRotationTimeout(Settings.System.getInt(getActivity()
                     .getContentResolver(), Settings.System.KEYBOARD_ROTATION_TIMEOUT, TIMEOUT_DEFAULT));
 
-
         mHideExtras = (CheckBoxPreference) findPreference(PREF_HIDE_EXTRAS);
-        mHideExtras.setChecked(Settings.System.getBoolean(cr,
+        mHideExtras.setChecked(Settings.System.getBoolean(mContentRes,
                        Settings.System.HIDE_EXTRAS_SYSTEM_BAR, false));
 
-        mRamBar = findPreference(PREF_RECENTS_RAM_BAR);
-        updateRamBar();
+        mRamBar = (CheckBoxPreference) findPreference(PREF_RAM_USAGE_BAR);
+        mRamBar.setChecked(Settings.System.getBoolean(mContentRes,
+                Settings.System.RAM_USAGE_BAR, false));
 
         setHasOptionsMenu(true);
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        updateRamBar();
-    }
-
-    @Override
-    public void onPause() {
-        super.onResume();
-        updateRamBar();
-    }
-
-    private void updateRamBar() {
-        int ramBarMode = Settings.System.getInt(getActivity().getApplicationContext().getContentResolver(),
-                Settings.System.RECENTS_RAM_BAR_MODE, 0);
-        if (ramBarMode != 0)
-            mRamBar.setSummary(getResources().getString(R.string.ram_bar_color_enabled));
-        else
-            mRamBar.setSummary(getResources().getString(R.string.ram_bar_color_disabled));
     }
 
     public void updateRotationTimeout(int timeout) {
@@ -254,6 +233,11 @@ public class GeneralUI extends SettingsPreferenceFragment implements OnPreferenc
             ft.addToBackStack("hardware_keys_binding");
             ft.replace(this.getId(), fragment);
             ft.commit();
+            return true;
+        } else if (preference == mRamBar) {
+            boolean checked = ((CheckBoxPreference)preference).isChecked();
+            Settings.System.putBoolean(getActivity().getContentResolver(),
+                    Settings.System.RAM_USAGE_BAR, checked ? true : false);
             return true;
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
