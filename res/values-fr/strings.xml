@@ -229,7 +229,7 @@ Le Paranoid PIE est basé uniquement sur une navigation en mode Bureau étendu, 
     <string name="pie_search_title">Bouton Recherche</string>
     <string name="pie_search_summary">Afficher le bouton Recherche dans le PIE</string>
     <string name="pie_lastapp_title">Bouton Dernière App</string>
-    <string name="pie_lastapp_summary">Afficher le bouton Dernière App dans le PIE, qui permet de revenir rapidement à la dernière application qui a été utilisée</string>
+    <string name="pie_lastapp_summary">Afficher le bouton Dernière app. dans le PIE, qui permet de revenir rapidement à la dernière application qui a été utilisée</string>
     <string name="pie_center_title">Centrage</string>
     <string name="pie_center_summary">Toujours afficher le PIE au milieu de l\'aire d\'activation, plutôt qu\'à l\'endroit où est votre doigt.</string>
     <string name="pie_stick_title">Empêcher la rotation</string>
@@ -341,7 +341,7 @@ Le Paranoid PIE est basé uniquement sur une navigation en mode Bureau étendu, 
     <string name="halo_hide_title">Masquer après activité</string>
     <string name="halo_hide_summary">Il va apparaître pour une tâche, puis se cacher peu après</string>
     <string name="halo_reversed_title">Inverser les gestes</string>
-    <string name="halo_reversed_summary">Inversé = Appui double pour interargir et simple pour déplacer</string>
+    <string name="halo_reversed_summary">Inversé = Double-appui pour interargir et simple pour déplacer</string>
     <string name="halo_state_title">Gestion des notifications</string>
     <string name="halo_state_summary">Gestion des notifications affichées par une liste noire ou blanche (Paramètres, applications, sélectionner une appli)</string>
     <string name="halo_state_black">Par liste noire</string>
@@ -442,7 +442,7 @@ Le Paranoid PIE est basé uniquement sur une navigation en mode Bureau étendu, 
     <string name="toggle_swap_handle_side">Poignée à droite</string>
     <string name="add_toggles">Ajouter des interrupteurs</string>
     <string name="screenshot_delay_title">Délai de la capture d\'écran</string>
-    <string name="screenshot_delay_summary">Choisir le délai de l\'interrupteur \'Capture d\'écran\' pour faire la capture</string>
+    <string name="screenshot_delay_summary">Délai de l\'interrupteur \'Capture d\'écran\' pour faire la capture (par appui long)</string>
     <string name="toggle_action_title">Action %1$s &amp; icône</string>
     <string name="toggle_action_title_alt">Appui long action %1$s &amp; icône</string>
     <string name="toggle_longpress_title">Appui long de l\'action %1$s</string>
@@ -507,7 +507,7 @@ Le Paranoid PIE est basé uniquement sur une navigation en mode Bureau étendu, 
     <string name="menu">Menu</string>
     <string name="open_ime_switcher">Sélecteur d\'IME</string>
     <string name="kill_app">Fermer l\'application</string>
-    <string name="lastapp">Dernière App</string>
+    <string name="lastapp">Dernière app.</string>
     <string name="power">Verrouiller</string>
     <string name="notifications">Notifications</string>
     <string name="custom_app">Application personnalisée</string>
@@ -750,22 +750,7 @@ Le Paranoid PIE est basé uniquement sur une navigation en mode Bureau étendu, 
 
     <!-- General UI | Recents Ram Bar -->
     <string name="ram_bar">Barre de RAM</string>
-    <string name="ram_bar_note_title">Note</string>
-    <string name="ram_bar_note_summary">Cette Barre de RAM montre comment Android utilise vraiment votre mémoire vive disponible. Veuillez noter que les applications ouvertes en arrière-plan et mises en cache aident votre appareil à ouvrir vos applications plus rapidement. Pour plus d\'explications sur la gestion de la RAM, suivez le bouton Aide dans le menu.</string>
-    <string name="ram_bar_mode_title">Mode de la barre de RAM</string>
-    <string name="ram_bar_mode_dialog_title">Afficher sur la barre de RAM</string>
-    <string name="ram_bar_none">Désactivée.</string>
-    <string name="ram_bar_apps">Applications.</string>
-    <string name="ram_bar_cache">Applications et cache.</string>
-    <string name="ram_bar_other">Applications, cache et autres.</string>
-    <string name="ram_bar_style_cat">Personnalisation de la barre de RAM</string>
-    <string name="ram_bar_color_app_mem_color">Couleur des applications</string>
-    <string name="ram_bar_color_cache_mem_color">Couleur du cache</string>
-    <string name="ram_bar_color_total_mem_color">Couleur des autres choses</string>
-    <string name="ram_bar_color_enabled">Activée, dans la liste des applications récentes.</string>
-    <string name="ram_bar_color_disabled">Désactivée</string>
-    <string name="ram_bar_button_help">Aide</string>
-    <string name="ram_bar_button_reset">Réinitialiser les couleurs</string>
+    <string name="ram_bar_summary">Afficher la RAM utilisée dans la liste des applications récentes</string>
     
     <!-- Hardware keys -->
     <string name="hardware_keys_title">Boutons physiques</string>
