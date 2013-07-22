@@ -51,7 +51,6 @@
             android:key="pie_button_second_layer"
             android:fragment="com.xylon.settings.slim.PieButtonSecondLayerSettings"
             android:title="@string/pie_button_second_layer"
-            android:dependency="pie_control"
             android:dependency="pie_second_layer" />
 
         <PreferenceScreen
