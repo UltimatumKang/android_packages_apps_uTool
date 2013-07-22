@@ -939,8 +939,10 @@ Le Paranoid PIE est basé uniquement sur une navigation en mode Bureau étendu, 
     <string name="lockscreen_background_default_wallpaper">Fond d\'écran par défaut</string>
     <string name="see_through_title">Voir à travers le fond</string>
     <string name="see_through_summary">Permet de voir l\'application en cours à travers l\'écran de verrouillage</string>
-    <string name="ls_color_alpha_title">Teinte de l\'écran</string>
-    <string name="ls_color_alpha_summary">Changer la couleur de la teinte de l\'écran de verrouillage.</string>
+    <string name="ls_text_color_title">Couleur du texte</string>
+    <string name="ls_text_color_summary">Changer la couleur du texte de l\'écran de verrouillage.</string>
+    <string name="ls_color_alpha_title">Teinte du fond</string>
+    <string name="ls_color_alpha_summary">Changer la couleur et la transparence de la teinte de l\'écran de verrouillage.</string>
 
     <!-- Lock Screen -->
     <string name="lockscreen_auto_rotate_title">Rotation auto. de l\'écran de verr.</string>
