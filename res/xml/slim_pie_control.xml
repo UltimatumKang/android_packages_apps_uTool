@@ -22,11 +22,13 @@
     <PreferenceScreen
         android:key="pie_style"
         android:fragment="com.xylon.settings.slim.PieStyleSettings"
+        android:dependency="pie_control"
         android:title="@string/pie_style" />
 
     <PreferenceScreen
         android:key="pie_trigger"
         android:fragment="com.xylon.settings.slim.PieTriggerSettings"
+        android:dependency="pie_control"
         android:title="@string/pie_trigger" />
 
     <PreferenceCategory
@@ -35,23 +37,27 @@
         <PreferenceScreen
             android:key="pie_button"
             android:fragment="com.xylon.settings.slim.PieButtonSettings"
+            android:dependency="pie_control"
             android:title="@string/pie_button" />
 
         <CheckBoxPreference
             android:key="pie_second_layer"
             android:title="@string/pie_second_layer_title"
             android:summary="@string/pie_second_layer_summary"
+            android:dependency="pie_control"
             android:defaultValue="false" />
 
         <PreferenceScreen
             android:key="pie_button_second_layer"
             android:fragment="com.xylon.settings.slim.PieButtonSecondLayerSettings"
             android:title="@string/pie_button_second_layer"
+            android:dependency="pie_control"
             android:dependency="pie_second_layer" />
 
         <PreferenceScreen
             android:key="pie_button_style"
             android:fragment="com.xylon.settings.slim.PieButtonStyleSettings"
+            android:dependency="pie_control"
             android:title="@string/pie_button_style" />
 
     </PreferenceCategory>
@@ -63,18 +69,21 @@
             android:key="pie_show_background"
             android:title="@string/pie_show_background_title"
             android:summary="@string/pie_show_background_summary"
+            android:dependency="pie_control"
             android:defaultValue="true" />
 
         <CheckBoxPreference
             android:key="pie_show_snap"
             android:title="@string/pie_show_snap_title"
             android:summary="@string/pie_show_snap_summary"
+            android:dependency="pie_control"
             android:defaultValue="true" />
 
         <CheckBoxPreference
             android:key="pie_show_text"
             android:title="@string/pie_show_text_title"
             android:summary="@string/pie_show_text_summary"
+            android:dependency="pie_control"
             android:defaultValue="true" />
 
         <CheckBoxPreference
