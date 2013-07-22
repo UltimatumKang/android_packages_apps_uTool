@@ -33,6 +33,12 @@
             android:entryValues="@array/lockscreen_background_values" />
 
 	<net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="lock_text_color"
+            android:title="@string/ls_text_color_title"
+            android:summary="@string/ls_text_color_summary"
+            android:defaultValue="0xffffffff" />
+
+	<net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="lock_color_alpha"
             android:title="@string/ls_color_alpha_title"
             android:summary="@string/ls_color_alpha_summary"

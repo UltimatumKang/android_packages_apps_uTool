@@ -68,6 +68,7 @@ public class Lockscreen extends SettingsPreferenceFragment implements Preference
     private static final String PREF_DASH_CLOCK = "dash_clock";
     private static final String PREF_SEE_TRHOUGH = "see_through";
     private static final String BACKGROUND_PREF = "lockscreen_background";
+    private static final String PREF_LS_TEXT_COLOR = "lock_text_color";
     private static final String PREF_LS_COLOR_ALPHA = "lock_color_alpha";
 
     // CyanogenMod Additions
@@ -86,6 +87,7 @@ public class Lockscreen extends SettingsPreferenceFragment implements Preference
     private static final int LOCKSCREEN_BACKGROUND_CUSTOM_IMAGE = 1;
     private static final int LOCKSCREEN_BACKGROUND_DEFAULT_WALLPAPER = 2;
 
+    ColorPickerPreference mLsTextColor;
     ColorPickerPreference mLsColorAlpha;
     CheckBoxPreference mLockscreenAutoRotate;
     CheckBoxPreference mLockscreenAllWidgets;
@@ -158,6 +160,9 @@ public class Lockscreen extends SettingsPreferenceFragment implements Preference
 
         mCustomBackground = (ListPreference) prefSet.findPreference(BACKGROUND_PREF);
         mCustomBackground.setOnPreferenceChangeListener(this);
+
+        mLsTextColor = (ColorPickerPreference) findPreference(PREF_LS_TEXT_COLOR);
+        mLsTextColor.setOnPreferenceChangeListener(this);
 
         mLsColorAlpha = (ColorPickerPreference) findPreference(PREF_LS_COLOR_ALPHA);
         mLsColorAlpha.setOnPreferenceChangeListener(this);
@@ -389,6 +394,14 @@ public class Lockscreen extends SettingsPreferenceFragment implements Preference
         } else if (preference == mCustomBackground) {
             int selection = mCustomBackground.findIndexOfValue(objValue.toString());
             return handleBackgroundSelection(selection);
+        } else if (preference == mLsTextColor) {
+            String hex = ColorPickerPreference.convertToARGB(Integer.valueOf(String
+                    .valueOf(objValue)));
+            preference.setSummary(hex);
+            int intHex = ColorPickerPreference.convertToColorInt(hex);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.LOCKSCREEN_CUSTOM_TEXT_COLOR, intHex);
+            return true;
         } else if (preference == mLsColorAlpha) {
             String hex = ColorPickerPreference.convertToARGB(Integer.valueOf(String
                     .valueOf(objValue)));

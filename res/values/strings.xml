@@ -1106,8 +1106,10 @@ Paranoid PIE control is wavely based on simple navigation to expanded desktop. S
     <string name="lockscreen_background_default_wallpaper">Default wallpaper</string>
     <string name="see_through_title">See through</string>
     <string name="see_through_summary">Allows to see the application behind the lock screen.</string>
+    <string name="ls_text_color_title">Text color</string>
+    <string name="ls_text_color_summary">Ability to adjust the text color of the lock screen.</string>
     <string name="ls_color_alpha_title">Lockscreen Tint Color</string>
-    <string name="ls_color_alpha_summary">Allows to change the tint of the lock screen.</string>
+    <string name="ls_color_alpha_summary">Ability to adjust the color and alpha of the lock screen.</string>
 
     <!-- Screen security - Screen security   -->
     <string name="additional_options_title">Additional options</string>
