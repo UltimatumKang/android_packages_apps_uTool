@@ -1,4 +1,3 @@
-
 package com.xylon.settings.fragments;
 
 import android.app.Activity;
@@ -635,7 +634,7 @@ public class StatusExtras extends SettingsPreferenceFragment implements OnPrefer
 
     public static class AdvancedTransparencyDialog extends DialogFragment {
 
-        private static final int KEYGUARD_ALPHA = 112;
+        //private static final int KEYGUARD_ALPHA = 112;
 
         private static final int STATUSBAR_ALPHA = 0;
         private static final int STATUSBAR_KG_ALPHA = 1;
@@ -643,7 +642,7 @@ public class StatusExtras extends SettingsPreferenceFragment implements OnPrefer
         private static final int NAVBAR_KG_ALPHA = 3;
 
         boolean linkTransparencies = true;
-        CheckBox mLinkCheckBox, mMatchStatusbarKeyguard, mMatchNavbarKeyguard;
+        CheckBox mLinkCheckBox;
         ViewGroup mNavigationBarGroup;
 
         TextView mSbLabel;
@@ -673,8 +672,8 @@ public class StatusExtras extends SettingsPreferenceFragment implements OnPrefer
             mSeekBars[NAVBAR_KG_ALPHA] = (AlphaSeekBar) layout
                     .findViewById(R.id.navbar_keyguard_alpha);
 
-            mMatchStatusbarKeyguard = (CheckBox) layout.findViewById(R.id.statusbar_match_keyguard);
-            mMatchNavbarKeyguard = (CheckBox) layout.findViewById(R.id.navbar_match_keyguard);
+            //mMatchStatusbarKeyguard = (CheckBox) layout.findViewById(R.id.statusbar_match_keyguard);
+            //mMatchNavbarKeyguard = (CheckBox) layout.findViewById(R.id.navbar_match_keyguard);
 
             try {
                 // restore any saved settings
@@ -690,7 +689,7 @@ public class StatusExtras extends SettingsPreferenceFragment implements OnPrefer
                     mSeekBars[STATUSBAR_ALPHA].setCurrentAlpha(alphas[0]);
                     mSeekBars[STATUSBAR_KG_ALPHA].setCurrentAlpha(alphas[1]);
 
-                    mMatchStatusbarKeyguard.setChecked(alphas[1] == KEYGUARD_ALPHA);
+                    //mMatchStatusbarKeyguard.setChecked(alphas[1] == KEYGUARD_ALPHA);
 
                     if (linkTransparencies) {
                         mSeekBars[NAVBAR_ALPHA].setCurrentAlpha(alphas[0]);
@@ -706,7 +705,7 @@ public class StatusExtras extends SettingsPreferenceFragment implements OnPrefer
                             mSeekBars[NAVBAR_ALPHA].setCurrentAlpha(alphas[0]);
                             mSeekBars[NAVBAR_KG_ALPHA].setCurrentAlpha(alphas[1]);
 
-                            mMatchNavbarKeyguard.setChecked(alphas[1] == KEYGUARD_ALPHA);
+                            //mMatchNavbarKeyguard.setChecked(alphas[1] == KEYGUARD_ALPHA);
                         }
                     }
                 }
@@ -715,8 +714,8 @@ public class StatusExtras extends SettingsPreferenceFragment implements OnPrefer
             }
 
             updateToggleState();
-            mMatchStatusbarKeyguard.setOnCheckedChangeListener(mUpdateStatesListener);
-            mMatchNavbarKeyguard.setOnCheckedChangeListener(mUpdateStatesListener);
+            //mMatchStatusbarKeyguard.setOnCheckedChangeListener(mUpdateStatesListener);
+            //mMatchNavbarKeyguard.setOnCheckedChangeListener(mUpdateStatesListener);
             mLinkCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 
                 @Override
@@ -775,18 +774,18 @@ public class StatusExtras extends SettingsPreferenceFragment implements OnPrefer
                 mNavigationBarGroup.setVisibility(View.VISIBLE);
             }
 
-            mSeekBars[STATUSBAR_KG_ALPHA]
-                    .setEnabled(!mMatchStatusbarKeyguard.isChecked());
-            mSeekBars[NAVBAR_KG_ALPHA]
-                    .setEnabled(!mMatchNavbarKeyguard.isChecked());
+            //mSeekBars[STATUSBAR_KG_ALPHA]
+            //        .setEnabled(!mMatchStatusbarKeyguard.isChecked());
+            //mSeekBars[NAVBAR_KG_ALPHA]
+            //        .setEnabled(!mMatchNavbarKeyguard.isChecked());
 
             // disable keyguard alpha if needed
-            if (!mSeekBars[STATUSBAR_KG_ALPHA].isEnabled()) {
-                mSeekBars[STATUSBAR_KG_ALPHA].setCurrentAlpha(KEYGUARD_ALPHA);
-            }
-            if (!mSeekBars[NAVBAR_KG_ALPHA].isEnabled()) {
-                mSeekBars[NAVBAR_KG_ALPHA].setCurrentAlpha(KEYGUARD_ALPHA);
-            }
+            //if (!mSeekBars[STATUSBAR_KG_ALPHA].isEnabled()) {
+            //    mSeekBars[STATUSBAR_KG_ALPHA].setCurrentAlpha(KEYGUARD_ALPHA);
+            //}
+            //if (!mSeekBars[NAVBAR_KG_ALPHA].isEnabled()) {
+            //    mSeekBars[NAVBAR_KG_ALPHA].setCurrentAlpha(KEYGUARD_ALPHA);
+            //}
         }
 
         @Override
